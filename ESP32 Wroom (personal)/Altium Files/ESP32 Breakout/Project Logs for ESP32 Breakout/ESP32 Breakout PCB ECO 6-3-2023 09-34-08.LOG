@@ -1,0 +1,25 @@
+Removed Pin From Net: NetName=GND Pin=J1-A1,B12
+Removed Pin From Net: NetName=GND Pin=J1-SH
+Removed Pin From Net: NetName=GND Pin=J1-SH
+Removed Pin From Net: NetName=GND Pin=J1-SH
+Removed Pin From Net: NetName=GND Pin=J1-SH
+Removed Pin From Net: NetName=GND Pin=U1-39_10
+Removed Pin From Net: NetName=GND Pin=U1-39_11
+Removed Pin From Net: NetName=GND Pin=U1-39_12
+Removed Pin From Net: NetName=GND Pin=U1-39_13
+Removed Pin From Net: NetName=GND Pin=U1-39_14
+Removed Pin From Net: NetName=GND Pin=U1-39_15
+Removed Pin From Net: NetName=GND Pin=U1-39_16
+Removed Pin From Net: NetName=GND Pin=U1-39_17
+Removed Pin From Net: NetName=GND Pin=U1-39_18
+Removed Pin From Net: NetName=GND Pin=U1-39_19
+Removed Pin From Net: NetName=GND Pin=U1-39_20
+Removed Pin From Net: NetName=GND Pin=U1-39_21
+Change Component Library : Designator=J1 Old Library=Schem_Lib_DaanHeetkamp.SchLib New Library=Schem_Lib_DaanHeetkamp..SchLib
+Add Pin To Net: Unknown Pin: Pin J1-A1B12
+Add Pin To Net: Unknown Pin: Pin J1-A4B9
+Add Pin To Net: Unknown Pin: Pin J1-B1A12
+Add Pin To Net: Unknown Pin: Pin J1-B4A9
+Added Room: Name=IC_Programmers
+Added Room: Name=IC_Schema
+Added Room: Name=Microphone PreAmp

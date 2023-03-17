@@ -1,0 +1,7 @@
+Change Component Designator: OldDesignator=Sldr1 NewDesignator=PWR1
+Change Component Designator: OldDesignator=Solder1 NewDesignator=PWR2
+Add Pin To Net: Pin=J3-1 Old Net=NetJ3_1 New Net=IO12
+Change Pin Designator/Name:  Old Designator=J1-A1,B12 Old Name=GND New Designator =GND New Name=A1,B12
+Change Pin Designator/Name:  Old Designator=J1-A4,B9 Old Name=VBUS New Designator =VBUS New Name=A4,B9
+Change Pin Designator/Name:  Old Designator=J1-B4,A9 Old Name=VBUS New Designator =VBUS New Name=B4,A9
+Change Pin Designator/Name:  Old Designator=J1-B1,A12 Old Name=GND New Designator =GND New Name=B1,A12

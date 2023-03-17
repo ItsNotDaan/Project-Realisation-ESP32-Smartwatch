@@ -1,0 +1,14 @@
+Change Component Comment : Designator=TP3 Old Comment=3,3V New Comment=Pad
+Change Component Comment : Designator=TP2 Old Comment=5V New Comment=Pad
+Change Component Comment : Designator=TP6 Old Comment=Bias New Comment=Pad
+Change Component Comment : Designator=TP5 Old Comment=MicOut New Comment=Pad
+Change Component Comment : Designator=TP4 Old Comment=MicRaw New Comment=Pad
+Change Component Comment : Designator=TP1 Old Comment=VBAT New Comment=Pad
+Add Pin To Net: Unknown Pin: Pin J1-A1
+Add Pin To Net: Unknown Pin: Pin J1-A4
+Add Pin To Net: Unknown Pin: Pin J1-A9
+Add Pin To Net: Unknown Pin: Pin J1-A12
+Add Pin To Net: Unknown Pin: Pin J1-B1
+Add Pin To Net: Unknown Pin: Pin J1-B4
+Add Pin To Net: Unknown Pin: Pin J1-B9
+Add Pin To Net: Unknown Pin: Pin J1-B12

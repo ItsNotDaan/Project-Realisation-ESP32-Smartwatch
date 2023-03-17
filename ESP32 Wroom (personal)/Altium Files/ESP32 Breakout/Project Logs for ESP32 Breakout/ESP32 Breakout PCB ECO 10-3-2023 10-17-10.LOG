@@ -1,0 +1,12 @@
+Added Component: Designator=R21(RES_1206)
+Added Component: Designator=R22(RES_1206)
+Added Pin To Net: NetName=3.3V Pin=R21-1
+Added Pin To Net: NetName=3.3V Pin=R22-1
+Added Pin To Net: NetName=SCL Pin=R22-2
+Added Pin To Net: NetName=GPIO9/SDA Pin=R21-2
+Added Net: Name=GPIO9/SDA
+Added Member To Class: ClassName=IC_Schema Member=Component R21 2k2
+Added Member To Class: ClassName=IC_Schema Member=Component R22 2k2
+Added Room: Name=IC_Programmers
+Added Room: Name=IC_Schema
+Added Room: Name=Microphone PreAmp

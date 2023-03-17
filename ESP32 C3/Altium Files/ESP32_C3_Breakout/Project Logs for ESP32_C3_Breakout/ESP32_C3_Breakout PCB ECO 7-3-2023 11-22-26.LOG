@@ -1,0 +1,323 @@
+Change Component Footprint: Designator=L? Old Footprint=SMD-1206 New Footprint=FP-LQW18AN_10-MFG
+Change Component Footprint: Designator=L? Old Footprint=SMD-1206 New Footprint=FP-LQW18AN_10-MFG
+Change Component Designator: OldDesignator=ANT? NewDesignator=ANT1
+Change Component Designator: OldDesignator=C? NewDesignator=C1
+Change Component Designator: OldDesignator=C? NewDesignator=C2
+Change Component Designator: OldDesignator=C? NewDesignator=C3
+Change Component Designator: OldDesignator=C? NewDesignator=C4
+Change Component Designator: OldDesignator=C? NewDesignator=C5
+Change Component Designator: OldDesignator=C? NewDesignator=C6
+Change Component Designator: OldDesignator=C? NewDesignator=C7
+Change Component Designator: OldDesignator=C? NewDesignator=C8
+Change Component Designator: OldDesignator=C? NewDesignator=C9
+Change Component Designator: OldDesignator=C? NewDesignator=C10
+Change Component Designator: OldDesignator=C? NewDesignator=C11
+Change Component Designator: OldDesignator=C? NewDesignator=C12
+Change Component Designator: OldDesignator=C? NewDesignator=C13
+Change Component Designator: OldDesignator=C? NewDesignator=C14
+Change Component Designator: OldDesignator=C? NewDesignator=C15
+Change Component Designator: OldDesignator=C? NewDesignator=C16
+Change Component Designator: OldDesignator=C? NewDesignator=C17
+Change Component Designator: OldDesignator=D? NewDesignator=D1
+Change Component Designator: OldDesignator=D? NewDesignator=D2
+Change Component Designator: OldDesignator=D? NewDesignator=D3
+Change Component Designator: OldDesignator=D? NewDesignator=D4
+Change Component Designator: OldDesignator=IC? NewDesignator=IC1
+Change Component Designator: OldDesignator=J? NewDesignator=J1
+Change Component Designator: OldDesignator=J? NewDesignator=J2
+Change Component Designator: OldDesignator=R? NewDesignator=R1
+Change Component Designator: OldDesignator=R? NewDesignator=R2
+Change Component Designator: OldDesignator=R? NewDesignator=R3
+Change Component Designator: OldDesignator=R? NewDesignator=R4
+Change Component Designator: OldDesignator=R? NewDesignator=R5
+Change Component Designator: OldDesignator=R? NewDesignator=R6
+Change Component Designator: OldDesignator=R? NewDesignator=R7
+Change Component Designator: OldDesignator=R? NewDesignator=R8
+Change Component Designator: OldDesignator=S? NewDesignator=S1
+Change Component Designator: OldDesignator=S? NewDesignator=S2
+Change Component Designator: OldDesignator=U? NewDesignator=U1
+Change Component Designator: OldDesignator=U? NewDesignator=U2
+Change Component Designator: OldDesignator=U? NewDesignator=U3
+Change Component Designator: OldDesignator=Y? NewDesignator=Y1
+Change Managed Component Library Link : Designator=L? Old VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 New VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 Old ItemGUID=831011BF-D4F8-42DD-9DA8-9658BFA7C193 New ItemGUID=DF6237C2-7F26-43B0-ABE5-63C7C9268B43 Old RevisionGUID=10D0846F-3FC4-47B4-8B07-03BA7ECE6DB6 New RevisionGUID=8C05B196-3E86-4EA4-9E35-037F58336221
+Change Managed Component Library Link : Designator=L? Old VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 New VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 Old ItemGUID=831011BF-D4F8-42DD-9DA8-9658BFA7C193 New ItemGUID=DF6237C2-7F26-43B0-ABE5-63C7C9268B43 Old RevisionGUID=10D0846F-3FC4-47B4-8B07-03BA7ECE6DB6 New RevisionGUID=8C05B196-3E86-4EA4-9E35-037F58336221
+Change component parameters: Designator = "L?" ("L?"); Footprint = "SMD-1206"; UniqueID = "\ZBLSYLCR" ("\ZBLSYLCR")
+Change component parameters: Designator = "L?" ("L?"); Footprint = "SMD-1206"; UniqueID = "\HNPSSFRQ" ("\HNPSSFRQ")
+Add Component: Footprint Not Found LIS3DHTR
+Added Component: Designator=C18(CAP_1206)
+Added Component: Designator=C19(CAP_1206)
+Added Component: Designator=C20(CAP_1206)
+Added Component: Designator=C21(CAP_1206)
+Added Component: Designator=C22(CAP_1206)
+Added Component: Designator=C23(CAP_1206)
+Added Component: Designator=C24(CAP_1206)
+Added Component: Designator=C25(CAP_1206)
+Added Component: Designator=C26(CAP_1206)
+Added Component: Designator=C27(CAP_1206)
+Added Component: Designator=C28(CAP_1206)
+Added Component: Designator=IC2(14-LEAD-OESIP)
+Add component (AddParameter): Name = "Arrow Part Number"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Arrow Price/Stock"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet Link"; Value = "https://datasheets.maximintegrated.com/en/ds/MAX30102.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Name"; Value = "Analog Devices"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Part_Number"; Value = "MAX30102EFD+"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Part Number"; Value = "700-MAX30102EFD+"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Price/Stock"; Value = "https://www.mouser.co.uk/ProductDetail/Maxim-Integrated/MAX30102EFD%2b?qs=nVS1qgv%252BQrk9UYEvS27V%2Fg%3D%3D"; VariantName = "[No Variations]"
+Added Component: Designator=IC3(SOP65P490X110-8N)
+Add component (AddParameter): Name = "Arrow Part Number"; Value = "PCA9517ADMR2G"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Arrow Price/Stock"; Value = "https://www.arrow.com/en/products/pca9517admr2g/on-semiconductor?region=nac"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet Link"; Value = "https://www.arrow.com/en/products/pca9517admr2g/on-semiconductor"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Height"; Value = "1.1mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Name"; Value = "onsemi"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Part_Number"; Value = "PCA9517ADMR2G"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Part Number"; Value = "863-PCA9517ADMR2G"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Price/Stock"; Value = "https://www.mouser.co.uk/ProductDetail/onsemi/PCA9517ADMR2G?qs=tCMd4XlZ%2FiBws0nQ3cmpKw%3D%3D"; VariantName = "[No Variations]"
+Added Component: Designator=IC4(SOT95P280X145-5N)
+Add component (AddParameter): Name = "Arrow Part Number"; Value = "LDLN025M18R"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Arrow Price/Stock"; Value = "https://www.arrow.com/en/products/ldln025m18r/stmicroelectronics"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet Link"; Value = "https://mouser.componentsearchengine.com/Datasheets/2/LDLN025M18R.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Height"; Value = "1.45mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Name"; Value = "STMicroelectronics"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Part_Number"; Value = "LDLN025M18R"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Part Number"; Value = "511-LDLN025M18R"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Price/Stock"; Value = "https://www.mouser.co.uk/ProductDetail/STMicroelectronics/LDLN025M18R?qs=5aG0NVq1C4xLjfzI8y7cFQ%3D%3D"; VariantName = "[No Variations]"
+Added Component: Designator=IC5(H3LIS100DLTR)
+Add component (AddParameter): Name = "Arrow Part Number"; Value = "L3GD20HTR"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Arrow Price/Stock"; Value = "https://www.arrow.com/en/products/l3gd20htr/stmicroelectronics"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet Link"; Value = "http://www.st.com/content/ccc/resource/technical/document/datasheet/35/b1/e0/39/71/57/43/01/DM00060659.pdf/files/DM00060659.pdf/jcr:content/translations/en.DM00060659.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Height"; Value = "1mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Name"; Value = "STMicroelectronics"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Part_Number"; Value = "L3GD20HTR"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Part Number"; Value = "511-L3GD20HTR"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Price/Stock"; Value = "https://www.mouser.co.uk/ProductDetail/STMicroelectronics/L3GD20HTR?qs=7v3IMFVTeKNoM%2F2Sb4QSlQ%3D%3D"; VariantName = "[No Variations]"
+Added Component: Designator=LS1(KINGS-KPEG242-2)
+Add component (AddParameter): Name = "Category"; Value = "AudioIndicatorsandAlerts"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Current - Max"; Value = "7A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet URL"; Value = "https://datasheet.ciiva.com/11776/0900766b8068f3a2-11776713.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet Version"; Value = "01/2006"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Frequency Range"; Value = "3600to4600Hz"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "KingstateElectronicsCorp."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer URL"; Value = "http://www.kingstate.com.tw/index.php/en/"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Maximum Resonant Frequency"; Value = "4600Hz"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Maximum Supply Current"; Value = "7mA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Minimum Sound Pressure"; Value = "70dBA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting"; Value = "ThroughHole"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Technology"; Value = "ThroughHole"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Operating Temperature"; Value = "-20to70°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package Description"; Value = "2-Pin Through Hole Device, Body Dia 13.7 mm, Pitch 7.62 mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package Reference"; Value = "KPEG242"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartNumber"; Value = "KPE-242"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Product Diameter"; Value = "13.7mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Product Height"; Value = "7.6mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Technology"; Value = "Piezo"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Termination Method"; Value = "Pin"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tone Mode"; Value = "Continuous"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Type"; Value = "Indicator"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Typical Operating Supply Voltage"; Value = "12Vdc"; VariantName = "[No Variations]"
+Added Component: Designator=OLED1(61300411121)
+Add component (AddParameter): Name = "Contact Resistance"; Value = "20mOhm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet URL"; Value = "https://katalog.we-online.de/em/datasheet/6130xx11121.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Gender"; Value = "Male"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Wurth Elektronik"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer URL"; Value = "http://www.we-online.de"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Technology"; Value = "THT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Operating Temperature"; Value = "-40to105degC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Orientation"; Value = "Vertical"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package Reference"; Value = "61300411121"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packaging"; Value = "Bag"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "61300411121"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pin Number"; Value = "4"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pitch"; Value = "2.54mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Publisher"; Value = "WurthElektronik"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Rated Current"; Value = "3A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Row Number"; Value = "Single"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Withstanding Voltage"; Value = "500VAC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Working Voltage"; Value = "250VAC"; VariantName = "[No Variations]"
+Added Component: Designator=P?(JST-S2B-PH-K-S_V)
+Add component (AddParameter): Name = "Capacitance"; Value = "10 uF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Case\Package"; Value = "Radial"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.jst-mfg.com/product/pdf/eng/ePH.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DatasheetVersion"; Value = "Dec-12"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Diameter"; Value = "5 mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Height"; Value = "11 mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Lead Pitch"; Value = "2 mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Length"; Value = "11 mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Operating Temperature"; Value = "85 degC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Min Operating Temperature"; Value = "-40 degC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mount"; Value = "Through Hole"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package Quantity"; Value = "200"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageDescription"; Value = "Male Header, Pitch 2 mm, 1 x 2 Position, Height 4.8 mm, Tail Length 3.4 mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageReference"; Value = "S2B-PH-K-S"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packaging"; Value = "Bulk"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pins"; Value = "2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Radiation Hardening"; Value = "No"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "REACH SVHC"; Value = "No SVHC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHSCompliant"; Value = "true"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "20%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage Rating"; Value = "50 V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage Rating (DC)"; Value = "50 V"; VariantName = "[No Variations]"
+Added Component: Designator=R9(RES_1206)
+Added Component: Designator=R10(RES_1206)
+Added Component: Designator=R11(RES_1206)
+Added Component: Designator=R12(RES_1206)
+Added Component: Designator=R13(RES_1206)
+Added Component: Designator=R14(RES_1206)
+Added Component: Designator=R15(RES_1206)
+Added Component: Designator=R16(RES_1206)
+Added Component: Designator=R17(RES_1206)
+Added Component: Designator=R18(RES_1206)
+Add Pin To Net: Unknown Pin: Pin AC1-1
+Add Pin To Net: Unknown Pin: Pin AC1-5
+Add Pin To Net: Unknown Pin: Pin AC1-6
+Add Pin To Net: Unknown Pin: Pin AC1-10
+Add Pin To Net: Unknown Pin: Pin AC1-12
+Add Pin To Net: Unknown Pin: Pin AC1-14
+Added Pin To Net: NetName=GND Pin=C18-1
+Added Pin To Net: NetName=GND Pin=C19-1
+Added Pin To Net: NetName=3.3V Pin=C19-2
+Added Pin To Net: NetName=GND Pin=C20-1
+Added Pin To Net: NetName=GND Pin=C21-1
+Added Pin To Net: NetName=3.3V Pin=C21-2
+Added Pin To Net: NetName=GND Pin=C22-1
+Added Pin To Net: NetName=3.3V Pin=C22-2
+Added Pin To Net: NetName=GND Pin=C23-1
+Added Pin To Net: NetName=GND Pin=C24-2
+Added Pin To Net: NetName=GND Pin=C25-1
+Added Pin To Net: NetName=3.3V Pin=C25-2
+Added Pin To Net: NetName=GND Pin=C26-1
+Added Pin To Net: NetName=3.3V Pin=C26-2
+Added Pin To Net: NetName=GND Pin=C27-1
+Added Pin To Net: NetName=3.3V Pin=C27-2
+Added Pin To Net: NetName=GND Pin=C28-1
+Added Pin To Net: NetName=3.3V Pin=C28-2
+Added Pin To Net: NetName=GND Pin=IC2-4
+Added Pin To Net: NetName=3.3V Pin=IC2-9
+Added Pin To Net: NetName=3.3V Pin=IC2-10
+Added Pin To Net: NetName=GND Pin=IC2-12
+Added Pin To Net: NetName=GND Pin=IC3-4
+Added Pin To Net: NetName=GPIO9 Pin=IC3-6
+Added Pin To Net: NetName=3.3V Pin=IC3-8
+Added Pin To Net: NetName=3.3V Pin=IC4-1
+Added Pin To Net: NetName=GND Pin=IC4-2
+Added Pin To Net: NetName=3.3V Pin=IC5-1
+Added Pin To Net: NetName=GPIO9 Pin=IC5-3
+Added Pin To Net: NetName=GND Pin=IC5-8
+Added Pin To Net: NetName=3.3V Pin=IC5-15
+Added Pin To Net: NetName=3.3V Pin=IC5-16
+Added Pin To Net: NetName=GND Pin=LS1-2
+Added Pin To Net: NetName=GND Pin=OLED1-1
+Added Pin To Net: NetName=3.3V Pin=OLED1-2
+Added Pin To Net: NetName=GPIO9 Pin=OLED1-4
+Added Pin To Net: NetName=GND Pin=P?-1
+Added Pin To Net: NetName=VBAT Pin=P?-2
+Added Pin To Net: NetName=GND Pin=R1-1
+Added Pin To Net: NetName=3.3V Pin=R11-1
+Added Pin To Net: NetName=3.3V Pin=R12-1
+Added Pin To Net: NetName=3.3V Pin=R13-1
+Added Pin To Net: NetName=GPIO9 Pin=R13-2
+Added Pin To Net: NetName=3.3V Pin=R14-1
+Added Pin To Net: NetName=3.3V Pin=R15-2
+Added Pin To Net: NetName=3.3V Pin=R16-2
+Added Pin To Net: NetName=3.3V Pin=R17-1
+Added Pin To Net: NetName=3.3V Pin=R18-1
+Change Net Name : Old Net Name=GPIO9 New Net Name=GPIO9/SDA
+Change Net Name : Old Net Name=NetANT?_1 New Net Name=NetANT1_1
+Change Net Name : Old Net Name=NetC?_1 New Net Name=NetC1_1
+Change Net Name : Old Net Name=NetC?_2 New Net Name=NetC13_2
+Change Net Name : Old Net Name=NetD?_A New Net Name=NetD4_A
+Change Net Name : Old Net Name=NetD?_C New Net Name=NetD2_C
+Change Net Name : Old Net Name=NetJ?_A5 New Net Name=NetJ1_A5
+Change Net Name : Old Net Name=NetJ?_B5 New Net Name=NetJ1_B5
+Change Net Name : Old Net Name=NetR?_1 New Net Name=NetR4_1
+Added Pin To Net: NetName=1.8V Pin=C18-2
+Added Pin To Net: NetName=1.8V Pin=C20-2
+Added Pin To Net: NetName=1.8V Pin=C23-2
+Added Pin To Net: NetName=1.8V Pin=IC2-11
+Added Pin To Net: NetName=1.8V Pin=IC3-1
+Added Pin To Net: NetName=1.8V Pin=IC4-5
+Added Pin To Net: NetName=1.8V Pin=R9-1
+Added Pin To Net: NetName=1.8V Pin=R10-1
+Added Net: Name=1.8V
+Added Pin To Net: NetName=GPIO2 Pin=IC1-6
+Added Pin To Net: NetName=GPIO2 Pin=LS1-1
+Added Net: Name=GPIO2
+Added Pin To Net: NetName=NetAC1_7 Pin=R18-2
+Added Net: Name=NetAC1_7
+Added Pin To Net: NetName=NetAC1_8 Pin=R17-2
+Added Net: Name=NetAC1_8
+Added Pin To Net: NetName=NetC8_2 Pin=C8-2
+Added Pin To Net: NetName=NetC8_2 Pin=IC1-1
+Added Pin To Net: NetName=NetC8_2 Pin=L?-1
+Added Net: Name=NetC8_2
+Added Pin To Net: NetName=NetC12_2 Pin=C12-2
+Added Pin To Net: NetName=NetC12_2 Pin=IC1-30
+Added Pin To Net: NetName=NetC12_2 Pin=Y1-1
+Added Net: Name=NetC12_2
+Added Pin To Net: NetName=NetC24_1 Pin=C24-1
+Added Pin To Net: NetName=NetC24_1 Pin=IC5-14
+Added Net: Name=NetC24_1
+Added Pin To Net: NetName=NetD3_A Pin=D3-A
+Added Pin To Net: NetName=NetD3_A Pin=R5-1
+Added Net: Name=NetD3_A
+Added Pin To Net: NetName=NetIC3_5 Pin=IC3-5
+Added Pin To Net: NetName=NetIC3_5 Pin=R11-2
+Added Net: Name=NetIC3_5
+Added Pin To Net: NetName=NetIC4_3 Pin=IC4-3
+Added Pin To Net: NetName=NetIC4_3 Pin=R14-2
+Added Net: Name=NetIC4_3
+Added Pin To Net: NetName=NetIC5_4 Pin=IC5-4
+Added Pin To Net: NetName=NetIC5_4 Pin=R15-1
+Added Net: Name=NetIC5_4
+Added Pin To Net: NetName=NetIC5_5 Pin=IC5-5
+Added Pin To Net: NetName=NetIC5_5 Pin=R16-1
+Added Net: Name=NetIC5_5
+Added Pin To Net: NetName=SCL_HRS Pin=IC2-2
+Added Pin To Net: NetName=SCL_HRS Pin=IC3-2
+Added Pin To Net: NetName=SCL_HRS Pin=R10-2
+Added Net: Name=SCL_HRS
+Added Pin To Net: NetName=SCL Pin=IC1-14
+Added Pin To Net: NetName=SCL Pin=IC3-7
+Added Pin To Net: NetName=SCL Pin=IC5-2
+Added Pin To Net: NetName=SCL Pin=OLED1-3
+Added Pin To Net: NetName=SCL Pin=R12-2
+Added Net: Name=SCL
+Added Pin To Net: NetName=SDA_HRS Pin=IC2-3
+Added Pin To Net: NetName=SDA_HRS Pin=IC3-3
+Added Pin To Net: NetName=SDA_HRS Pin=R9-2
+Added Net: Name=SDA_HRS
+Added Class: Name=Sensors
+Added Member To Class: ClassName=IC_Schematic Member=Component C1 10u
+Added Member To Class: ClassName=IC_Schematic Member=Component C2 100n
+Added Member To Class: ClassName=IC_Schematic Member=Component C3 100n
+Added Member To Class: ClassName=IC_Schematic Member=Component C4 100n
+Added Member To Class: ClassName=IC_Schematic Member=Component C5 100n
+Added Member To Class: ClassName=IC_Schematic Member=Component C6 100n
+Added Member To Class: ClassName=IC_Schematic Member=Component C7 10u
+Added Member To Class: ClassName=IC_Schematic Member=Component C8 3p3
+Added Member To Class: ClassName=IC_Schematic Member=Component C9 3p3
+Added Member To Class: ClassName=IC_Schematic Member=Component C10 4u7
+Added Member To Class: ClassName=IC_Schematic Member=Component C12 27p
+Added Member To Class: ClassName=IC_Schematic Member=Component C13 27p
+Added Member To Class: ClassName=IC_Schematic Member=Component C14 10u
+Added Member To Class: ClassName=IC_Schematic Member=Component C15 22u
+Added Member To Class: ClassName=IC_Schematic Member=Component C16 10n
+Added Member To Class: ClassName=IC_Schematic Member=Component C17 10n
+Added Member To Class: ClassName=IC_Schematic Member=Component D2 LED BAT
+Added Member To Class: ClassName=IC_Schematic Member=Component D3 LED VBUS
+Added Member To Class: ClassName=IC_Schematic Member=Component D4 LED 3.3V
+Added Member To Class: ClassName=IC_Schematic Member=Component J1 USB4105-GF-A-060
+Added Member To Class: ClassName=IC_Schematic Member=Component L? 2n2
+Added Member To Class: ClassName=IC_Schematic Member=Component LS1 KPEG242
+Added Member To Class: ClassName=IC_Schematic Member=Component OLED1 61300411121
+Added Member To Class: ClassName=IC_Schematic Member=Component P? Bat
+Added Member To Class: ClassName=IC_Schematic Member=Component R1 5k1
+Added Member To Class: ClassName=IC_Schematic Member=Component R2 5k1
+Added Member To Class: ClassName=IC_Schematic Member=Component R3 22k
+Added Member To Class: ClassName=IC_Schematic Member=Component R5 10k
+Added Member To Class: ClassName=IC_Schematic Member=Component R6 10k
+Added Member To Class: ClassName=IC_Schematic Member=Component R7 10k
+Added Member To Class: ClassName=IC_Schematic Member=Component R8 10k
+Added Member To Class: ClassName=IC_Schematic Member=Component S2 SWEN
+Added Member To Class: ClassName=IC_Schematic Member=Component U2 AZ1117CR-3.3TRG1
+Added Member To Class: ClassName=IC_Schematic Member=Component U3 W25Q16JVUXIQ

@@ -1,0 +1,28 @@
+Removed Pin From Net: NetName=GND Pin=J1-A1,B12
+Removed Pin From Net: NetName=VBUS Pin=J1-A4,B9
+Removed Pin From Net: NetName=GND Pin=J1-B1,A12
+Removed Pin From Net: NetName=VBUS Pin=J1-B4,A9
+Removed Pin From Net: NetName=GND Pin=U1-39_10
+Removed Pin From Net: NetName=GND Pin=U1-39_11
+Removed Pin From Net: NetName=GND Pin=U1-39_12
+Removed Pin From Net: NetName=GND Pin=U1-39_13
+Removed Pin From Net: NetName=GND Pin=U1-39_14
+Removed Pin From Net: NetName=GND Pin=U1-39_15
+Removed Pin From Net: NetName=GND Pin=U1-39_16
+Removed Pin From Net: NetName=GND Pin=U1-39_17
+Removed Pin From Net: NetName=GND Pin=U1-39_18
+Removed Pin From Net: NetName=GND Pin=U1-39_19
+Removed Pin From Net: NetName=GND Pin=U1-39_20
+Removed Pin From Net: NetName=GND Pin=U1-39_21
+Change Component Comment : Designator=R17 Old Comment=7k New Comment=6k8
+Add Pin To Net: Unknown Pin: Pin J1-A1
+Add Pin To Net: Unknown Pin: Pin J1-A4
+Add Pin To Net: Unknown Pin: Pin J1-A9
+Add Pin To Net: Unknown Pin: Pin J1-A12
+Add Pin To Net: Unknown Pin: Pin J1-B1
+Add Pin To Net: Unknown Pin: Pin J1-B4
+Add Pin To Net: Unknown Pin: Pin J1-B9
+Add Pin To Net: Unknown Pin: Pin J1-B12
+Added Room: Name=IC_Programmers
+Added Room: Name=IC_Schema
+Added Room: Name=Microphone PreAmp

@@ -1,0 +1,21 @@
+Removed Pin From Net: NetName=VBAT Pin=C7-2
+Removed Pin From Net: NetName=GND Pin=J1-A1,B12
+Removed Pin From Net: NetName=VBUS Pin=J1-A4,B9
+Removed Pin From Net: NetName=GND Pin=J1-B1,A12
+Removed Pin From Net: NetName=VBUS Pin=J1-B4,A9
+Removed Pin From Net: NetName=VBAT Pin=U4-1
+Added Pin To Net: NetName=VBUS Pin=C7-2
+Add Pin To Net: Unknown Pin: Pin J1-A1
+Add Pin To Net: Unknown Pin: Pin J1-A4
+Add Pin To Net: Unknown Pin: Pin J1-A9
+Add Pin To Net: Unknown Pin: Pin J1-A12
+Add Pin To Net: Unknown Pin: Pin J1-B1
+Add Pin To Net: Unknown Pin: Pin J1-B4
+Add Pin To Net: Unknown Pin: Pin J1-B9
+Add Pin To Net: Unknown Pin: Pin J1-B12
+Added Pin To Net: NetName=VBUS Pin=U4-1
+Change Net Name : Old Net Name=NetSldr1_2 New Net Name=NetPWR1_2
+Added Member To Class: ClassName=IC_Programmers Member=Component PWR2 Solder Pin CP2104
+Added Room: Name=IC_Programmers
+Added Room: Name=IC_Schema
+Added Room: Name=Microphone PreAmp

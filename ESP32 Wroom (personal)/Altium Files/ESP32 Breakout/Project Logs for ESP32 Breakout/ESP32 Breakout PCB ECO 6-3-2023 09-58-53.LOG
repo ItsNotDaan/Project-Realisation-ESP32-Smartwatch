@@ -1,0 +1,28 @@
+Removed Pin From Net: NetName=IO5 Pin=EX1-3
+Removed Pin From Net: NetName=GND Pin=U1-39_10
+Removed Pin From Net: NetName=GND Pin=U1-39_11
+Removed Pin From Net: NetName=GND Pin=U1-39_12
+Removed Pin From Net: NetName=GND Pin=U1-39_13
+Removed Pin From Net: NetName=GND Pin=U1-39_14
+Removed Pin From Net: NetName=GND Pin=U1-39_15
+Removed Pin From Net: NetName=GND Pin=U1-39_16
+Removed Pin From Net: NetName=GND Pin=U1-39_17
+Removed Pin From Net: NetName=GND Pin=U1-39_18
+Removed Pin From Net: NetName=GND Pin=U1-39_19
+Removed Pin From Net: NetName=GND Pin=U1-39_20
+Removed Pin From Net: NetName=GND Pin=U1-39_21
+Added Component: Designator=U8(LED_WS2812-2020)
+Add component (AddParameter): Name = "Availability"; Value = "Unavailable"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MF"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MP"; Value = "WS2812-2020"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "None"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Price"; Value = "None"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Pin To Net: NetName=IO16 Pin=EX1-3
+Added Pin To Net: NetName=GND Pin=U8-2
+Added Pin To Net: NetName=IO5 Pin=U8-3
+Added Pin To Net: NetName=3.3V Pin=U8-4
+Added Member To Class: ClassName=IC_Schema Member=Component U8 WS2812-2020
+Added Room: Name=IC_Programmers
+Added Room: Name=IC_Schema
+Added Room: Name=Microphone PreAmp

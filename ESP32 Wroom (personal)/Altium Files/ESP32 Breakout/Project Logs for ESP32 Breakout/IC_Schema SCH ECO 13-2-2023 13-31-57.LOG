@@ -1,0 +1,8 @@
+Change Component Parameter Comment in C2 Old= New=R1206
+Change Component Parameter Comment in C1 Old= New=R1206
+Change Component Parameter Description in C2 Old=Capacitor SMD 0402 50V New=Resistor SMD 1206
+Change Component Parameter Description in C1 Old=Capacitor SMD 0402 50V New=Resistor SMD 1206
+Change Component Parameter Library Reference in C2 Old=CAP_0402_50V New=RES_1206
+Change Component Parameter Library Reference in C1 Old=CAP_0402_50V New=RES_1206
+Replace Part C1 RES_1206 in C:\Users\Daanh\OneDrive - Saxion\Documents\Saxion\Project Int Personal\Altium Files\ESP32 Breakout\IC_Schema.SchDoc with RES_1206 from Schem_Lib_DaanHeetkamp..SchLib
+Replace Part C2 RES_1206 in C:\Users\Daanh\OneDrive - Saxion\Documents\Saxion\Project Int Personal\Altium Files\ESP32 Breakout\IC_Schema.SchDoc with RES_1206 from Schem_Lib_DaanHeetkamp..SchLib

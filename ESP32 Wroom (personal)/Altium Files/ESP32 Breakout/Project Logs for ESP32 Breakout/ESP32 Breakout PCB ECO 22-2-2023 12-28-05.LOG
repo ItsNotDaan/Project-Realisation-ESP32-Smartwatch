@@ -1,0 +1,12 @@
+Removed Member From Class: ClassName=IC_Schema Member=J6
+Add Pin To Net: Unknown Pin: Pin J1-A1
+Add Pin To Net: Unknown Pin: Pin J1-A4
+Add Pin To Net: Unknown Pin: Pin J1-A9
+Add Pin To Net: Unknown Pin: Pin J1-A12
+Add Pin To Net: Unknown Pin: Pin J1-B1
+Add Pin To Net: Unknown Pin: Pin J1-B4
+Add Pin To Net: Unknown Pin: Pin J1-B9
+Add Pin To Net: Unknown Pin: Pin J1-B12
+Added Member To Class: ClassName=IC_Schema Member=Component J3 90120-0763
+Added Member To Class: ClassName=IC_Schema Member=Component J4 22-28-4063
+Added Member To Class: ClassName=IC_Schema Member=Component J5 HTSW-104-07-G-D

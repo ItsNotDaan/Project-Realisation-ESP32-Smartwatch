@@ -1,0 +1,5 @@
+Change Component Designator: OldDesignator=LS1 NewDesignator=Buz1
+Change Component Designator: OldDesignator=OLED1 NewDesignator=OLED
+Change Component Designator: OldDesignator=P2 NewDesignator=NoBat
+Change Component Designator: OldDesignator=S1 NewDesignator=Sw-Boot
+Change Component Designator: OldDesignator=S2 NewDesignator=Sw-EN

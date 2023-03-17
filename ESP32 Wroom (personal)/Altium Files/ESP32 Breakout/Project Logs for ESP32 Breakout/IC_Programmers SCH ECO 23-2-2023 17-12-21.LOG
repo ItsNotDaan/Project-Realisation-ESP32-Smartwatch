@@ -1,0 +1,11 @@
+Change Component Designator: OldDesignator=J4 NewDesignator=SD-Card
+Change Component Designator: OldDesignator=J5 NewDesignator=HRT
+Change Component Designator: OldDesignator=J5 NewDesignator=HRT
+Change Component Designator: OldDesignator=J6 NewDesignator=External Prog
+Change Component Designator: OldDesignator=P1 NewDesignator=OLED
+Change Component Designator: OldDesignator=TP4 NewDesignator=MIC
+Change Component Designator: OldDesignator=TP5 NewDesignator=AMP_O
+Change Pin Designator/Name:  Old Designator=J1-A1,B12 Old Name=GND New Designator =GND New Name=A1,B12
+Change Pin Designator/Name:  Old Designator=J1-A4,B9 Old Name=VBUS New Designator =VBUS New Name=A4,B9
+Change Pin Designator/Name:  Old Designator=J1-B4,A9 Old Name=VBUS New Designator =VBUS New Name=B4,A9
+Change Pin Designator/Name:  Old Designator=J1-B1,A12 Old Name=GND New Designator =GND New Name=B1,A12

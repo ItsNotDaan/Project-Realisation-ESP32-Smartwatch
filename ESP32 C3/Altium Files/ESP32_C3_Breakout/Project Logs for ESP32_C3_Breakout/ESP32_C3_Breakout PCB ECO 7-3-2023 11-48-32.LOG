@@ -1,0 +1,16 @@
+Change Component Designator: OldDesignator=L? NewDesignator=L1
+Change Component Designator: OldDesignator=L? NewDesignator=L2
+Change Component Designator: OldDesignator=P? NewDesignator=P1
+Change Component Designator: OldDesignator=Y? NewDesignator=Y1
+Add Component: Footprint Not Found LIS3DHTR
+Add Pin To Net: Unknown Pin: Pin AC1-1
+Add Pin To Net: Unknown Pin: Pin AC1-4
+Add Pin To Net: Unknown Pin: Pin AC1-5
+Add Pin To Net: Unknown Pin: Pin AC1-6
+Add Pin To Net: Unknown Pin: Pin AC1-7
+Add Pin To Net: Unknown Pin: Pin AC1-8
+Add Pin To Net: Unknown Pin: Pin AC1-10
+Add Pin To Net: Unknown Pin: Pin AC1-12
+Add Pin To Net: Unknown Pin: Pin AC1-14
+Add Class Member: Failed to add class member : Component AC1 LIS3DHTR
+Added Member To Class: ClassName=IC_Schematic Member=Component L2 2n2

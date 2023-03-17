@@ -1,0 +1,38 @@
+Output: Gerber Files
+Type  : Gerber
+From  : Variant [[No Variations]] of Project [ESP32 Breakout.PrjPcb]
+   Generated File[ESP32 Breakout.GTO]
+   Generated File[ESP32 Breakout.GTP]
+   Generated File[ESP32 Breakout.GTS]
+   Generated File[ESP32 Breakout.GTL]
+   Generated File[ESP32 Breakout.GBL]
+   Generated File[ESP32 Breakout.GBS]
+   Generated File[ESP32 Breakout.GBP]
+   Generated File[ESP32 Breakout.GBO]
+   Generated File[ESP32 Breakout.GM1]
+   Generated File[ESP32 Breakout.GM2]
+   Generated File[ESP32 Breakout.GM3]
+   Generated File[ESP32 Breakout.GM5]
+   Generated File[ESP32 Breakout.GM13]
+   Generated File[ESP32 Breakout.GM15]
+   Generated File[ESP32 Breakout.GM16]
+   Generated File[ESP32 Breakout.GM20]
+   Generated File[ESP32 Breakout.GM21]
+   Generated File[ESP32 Breakout.GM23]
+   Generated File[ESP32 Breakout.GM24]
+   Generated File[ESP32 Breakout.GKO]
+   Generated File[ESP32 Breakout.GPT]
+   Generated File[ESP32 Breakout.GPB]
+   Generated File[ESP32 Breakout.GML]
+   Generated File[ESP32 Breakout.1]
+   Generated File[ESP32 Breakout.GD1]
+   Generated File[ESP32 Breakout.GG1]
+   Generated File[ESP32 Breakout.GM]
+   Generated File[ESP32 Breakout.EXTREP]
+   Generated File[ESP32 Breakout.REP]
+
+
+Files Generated   : 29
+Documents Printed : 0
+
+Finished Output Generation At 09:48:27 On 13-3-2023

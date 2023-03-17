@@ -1,0 +1,25 @@
+----------------------------------------------------------------------------------------------------------------------------------
+NCDrill File Report For: ESP32 Breakout.PcbDoc   13-3-2023  09:06:28
+----------------------------------------------------------------------------------------------------------------------------------
+
+Layer Pair : Top Layer to Bottom Layer
+ASCII RoundHoles File : ESP32 Breakout-RoundHoles.TXT
+ASCII SlotHoles File : ESP32 Breakout-SlotHoles.TXT
+
+Tool       Hole Size               Hole Tolerance               Hole Type       Hole Count   Plated         Tool Travel
+----------------------------------------------------------------------------------------------------------------------------------
+T1      0.2mm (8mil)                                              Round             12        PTH        12.53mm (0.49inch)
+T2      0.6mm (24mil)                                             Slot              4         PTH        37.57mm (1.48inch)
+T3      0.66mm (26mil)                                            Round             6         PTH        36.83mm (1.45inch)
+T4      0.711mm (28mil)                                           Round             93        PTH        664.20mm (26.15inch)
+T5      0.9mm (35mil)                                             Round             2         PTH        2.54mm (0.10inch)
+T6      1mm (39mil)                                               Round             16        PTH        126.86mm (4.99inch)
+T7      1.02mm (40mil)                                            Round             14        PTH        58.57mm (2.31inch)
+T8      1.04mm (41mil)                                            Round             6         PTH        12.70mm (0.50inch)
+T9      1.1mm (43mil)                                             Round             4         PTH        7.62mm (0.30inch)
+T10     2.4mm (94mil)                                             Round             4         PTH        238.76mm (9.40inch)
+T11     0.65mm (26mil)                                            Round             2         NPTH       5.78mm (0.23inch)
+----------------------------------------------------------------------------------------------------------------------------------
+Totals                                                                              163
+
+Total Processing Time (hh:mm:ss) : 00:00:00

@@ -1,0 +1,22 @@
+Removed Member From Class: ClassName=IC_Schema Member=MD1
+Removed Member From Class: ClassName=IC_Programmers Member=R19
+Removed Member From Class: ClassName=IC_Programmers Member=R20
+Add Pin To Net: Unknown Pin: Pin J1-A1
+Add Pin To Net: Unknown Pin: Pin J1-A4
+Add Pin To Net: Unknown Pin: Pin J1-A9
+Add Pin To Net: Unknown Pin: Pin J1-A12
+Add Pin To Net: Unknown Pin: Pin J1-B1
+Add Pin To Net: Unknown Pin: Pin J1-B4
+Add Pin To Net: Unknown Pin: Pin J1-B9
+Add Pin To Net: Unknown Pin: Pin J1-B12
+Added Member To Class: ClassName=IC_Programmers Member=Component PWR2 Solder MCP2200
+Added Member To Class: ClassName=IC_Programmers Member=Component R8 4k7
+Added Member To Class: ClassName=IC_Programmers Member=Component R9 10k
+Added Member To Class: ClassName=IC_Programmers Member=Component R11 47k
+Added Member To Class: ClassName=IC_Programmers Member=Component R13 10k
+Added Member To Class: ClassName=IC_Programmers Member=Component R14 4k7
+Added Member To Class: ClassName=IC_Programmers Member=Component R15 10k
+Added Member To Class: ClassName=IC_Programmers Member=Component R16 10k
+Added Member To Class: ClassName=Microphone PreAmp Member=Component R17 7k
+Added Member To Class: ClassName=Microphone PreAmp Member=Component R18 10k
+Added Member To Class: ClassName=IC_Schema Member=Component TP1 Pad

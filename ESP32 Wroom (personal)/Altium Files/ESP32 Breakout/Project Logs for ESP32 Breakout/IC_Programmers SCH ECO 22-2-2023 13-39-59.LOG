@@ -1,0 +1,3 @@
+Change Component Comment: Designator=D7 Old Comment=LED RX New Comment=RX
+Change Component Comment: Designator=D6 Old Comment=LED TX New Comment=TX
+Change Component Designator: OldDesignator=Solder2 NewDesignator=Sldr2

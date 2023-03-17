@@ -1,0 +1,53 @@
+Removed Pin From Net: NetName=GND Pin=*-2
+Removed Member From Class: ClassName=IC_Schematic Member=*
+Added Component: Designator=ANT?(PCB_Antenna_2.4GHz_50Ohm)
+Added Pin To Net: NetName=GND Pin=ANT?-2
+Added Pin To Net: NetName=NetANT?_1 Pin=ANT?-1
+Added Pin To Net: NetName=NetANT?_1 Pin=ANT?-1
+Added Pin To Net: NetName=NetANT?_1 Pin=ANT?-1
+Added Pin To Net: NetName=NetANT?_1 Pin=ANT?-1
+Added Pin To Net: NetName=NetANT?_1 Pin=ANT?-1
+Added Pin To Net: NetName=NetANT?_1 Pin=ANT?-1
+Added Pin To Net: NetName=NetANT?_1 Pin=ANT?-1
+Added Pin To Net: NetName=NetANT?_1 Pin=ANT?-1
+Added Pin To Net: NetName=NetANT?_1 Pin=ANT?-1
+Added Pin To Net: NetName=NetANT?_1 Pin=ANT?-1
+Added Pin To Net: NetName=NetANT?_1 Pin=ANT?-1
+Added Pin To Net: NetName=NetANT?_1 Pin=C?-2
+Added Pin To Net: NetName=NetANT?_1 Pin=L?-2
+Added Net: Name=NetANT?_1
+Add Net: Net with name "NetC?_2" already exists
+Add Net: Net with name "NetC?_2" already exists
+Add Net: Net with name "NetD?_A" already exists
+Added Member To Class: ClassName=IC_Schematic Member=Component ANT? Antenna 2.4Ghz 50Ohm PCB
+Added Member To Class: ClassName=IC_Schematic Member=Component C? 22u
+Added Member To Class: ClassName=IC_Schematic Member=Component C? 10n
+Added Member To Class: ClassName=IC_Schematic Member=Component C? 100n
+Added Member To Class: ClassName=IC_Schematic Member=Component C? 100n
+Added Member To Class: ClassName=IC_Schematic Member=Component C? 100n
+Added Member To Class: ClassName=IC_Schematic Member=Component C? 4u7
+Added Member To Class: ClassName=IC_Schematic Member=Component C? 100n
+Added Member To Class: ClassName=IC_Schematic Member=Component C? 27p
+Added Member To Class: ClassName=IC_Schematic Member=Component C? 10u
+Added Member To Class: ClassName=IC_Schematic Member=Component C? 3p3
+Added Member To Class: ClassName=IC_Schematic Member=Component C? 10u
+Added Member To Class: ClassName=IC_Schematic Member=Component C? 3p3
+Added Member To Class: ClassName=IC_Schematic Member=Component C? 100n
+Added Member To Class: ClassName=IC_Schematic Member=Component C? 10u
+Added Member To Class: ClassName=IC_Schematic Member=Component C? 4u7
+Added Member To Class: ClassName=IC_Schematic Member=Component C? 27p
+Added Member To Class: ClassName=IC_Schematic Member=Component D? LED VBUS
+Added Member To Class: ClassName=IC_Schematic Member=Component D? SP0503BAHTG
+Added Member To Class: ClassName=IC_Schematic Member=Component D? LED 3.3V
+Added Member To Class: ClassName=IC_Schematic Member=Component J? USB4105-GF-A-060
+Added Member To Class: ClassName=IC_Schematic Member=Component L? 2n2
+Added Member To Class: ClassName=IC_Schematic Member=Component R? 470
+Added Member To Class: ClassName=IC_Schematic Member=Component R? 22k
+Added Member To Class: ClassName=IC_Schematic Member=Component R? 10k
+Added Member To Class: ClassName=IC_Schematic Member=Component R? 10k
+Added Member To Class: ClassName=IC_Schematic Member=Component R? 5k1
+Added Member To Class: ClassName=IC_Schematic Member=Component R? 10k
+Added Member To Class: ClassName=IC_Schematic Member=Component R? 5k1
+Added Member To Class: ClassName=IC_Schematic Member=Component S? SWEN
+Added Member To Class: ClassName=IC_Schematic Member=Component U? W25Q16JVUXIQ
+Added Member To Class: ClassName=IC_Schematic Member=Component U? AZ1117CR-3.3TRG1

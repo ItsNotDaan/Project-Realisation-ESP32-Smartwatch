@@ -1,0 +1,39 @@
+Output: Gerber Files
+Type  : Gerber
+From  : Variant [[No Variations]] of Project [ESP32_C3_Breakout.PrjPcb]
+   Generated File[ESP32_C3_Breakout.GTO]
+   Generated File[ESP32_C3_Breakout.GTP]
+   Generated File[ESP32_C3_Breakout.GTS]
+   Generated File[ESP32_C3_Breakout.GTL]
+   Generated File[ESP32_C3_Breakout.GBL]
+   Generated File[ESP32_C3_Breakout.GBS]
+   Generated File[ESP32_C3_Breakout.GBP]
+   Generated File[ESP32_C3_Breakout.GBO]
+   Generated File[ESP32_C3_Breakout.GM1]
+   Generated File[ESP32_C3_Breakout.GM2]
+   Generated File[ESP32_C3_Breakout.GM3]
+   Generated File[ESP32_C3_Breakout.GM4]
+   Generated File[ESP32_C3_Breakout.GM5]
+   Generated File[ESP32_C3_Breakout.GM13]
+   Generated File[ESP32_C3_Breakout.GM15]
+   Generated File[ESP32_C3_Breakout.GM16]
+   Generated File[ESP32_C3_Breakout.GM20]
+   Generated File[ESP32_C3_Breakout.GM21]
+   Generated File[ESP32_C3_Breakout.GM23]
+   Generated File[ESP32_C3_Breakout.GM24]
+   Generated File[ESP32_C3_Breakout.GKO]
+   Generated File[ESP32_C3_Breakout.GPT]
+   Generated File[ESP32_C3_Breakout.GPB]
+   Generated File[ESP32_C3_Breakout.1]
+   Generated File[ESP32_C3_Breakout.GML]
+   Generated File[ESP32_C3_Breakout.GD1]
+   Generated File[ESP32_C3_Breakout.GG1]
+   Generated File[ESP32_C3_Breakout.GM]
+   Generated File[ESP32_C3_Breakout.EXTREP]
+   Generated File[ESP32_C3_Breakout.REP]
+
+
+Files Generated   : 30
+Documents Printed : 0
+
+Finished Output Generation At 09:49:24 On 13-3-2023

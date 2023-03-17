@@ -1,0 +1,34 @@
+Removed Member From Class: ClassName=IC_Schematic Member=R19
+Removed Member From Class: ClassName=IC_Schematic Member=R20
+Added Component: Designator=3V3(PAD_SQ_2MM)
+Added Component: Designator=VBAT(PAD_SQ_2MM)
+Added Component: Designator=VBUS(PAD_SQ_2MM)
+Added Component: Designator=XTAL(PAD_SQ_2MM)
+Added Pin To Net: NetName=3.3V Pin=3V3-1
+Added Pin To Net: NetName=VBAT Pin=VBAT-1
+Added Pin To Net: NetName=VBUS Pin=VBUS-1
+Added Pin To Net: NetName=NetC12_2 Pin=XTAL-1
+Change Net Name : Old Net Name=NetC12_2 New Net Name=XTAL_P
+Change Net Name : Old Net Name=NetC13_2 New Net Name=XTAL_N
+Added Member To Class: ClassName=IC_Schematic Member=Component 3V3 Pad
+Added Member To Class: ClassName=IC_Schematic Member=Component R1 2k2
+Added Member To Class: ClassName=IC_Schematic Member=Component R2 2k2
+Added Member To Class: ClassName=IC_Schematic Member=Component R3 5k1
+Added Member To Class: ClassName=IC_Schematic Member=Component R4 5k1
+Added Member To Class: ClassName=IC_Schematic Member=Component R5 22k
+Added Member To Class: ClassName=IC_Schematic Member=Component R6 470
+Added Member To Class: ClassName=IC_Schematic Member=Component R7 10k
+Added Member To Class: ClassName=IC_Schematic Member=Component R8 10k
+Added Member To Class: ClassName=IC_Schematic Member=Component R9 10k
+Added Member To Class: ClassName=IC_Schematic Member=Component R10 10k
+Added Member To Class: ClassName=Sensors Member=Component R11 10k
+Added Member To Class: ClassName=Sensors Member=Component R12 10k
+Added Member To Class: ClassName=Sensors Member=Component R13 10k
+Added Member To Class: ClassName=Sensors Member=Component R14 10k
+Added Member To Class: ClassName=Sensors Member=Component R15 10k
+Added Member To Class: ClassName=Sensors Member=Component R16 10k
+Added Member To Class: ClassName=Sensors Member=Component R17 10k
+Added Member To Class: ClassName=Sensors Member=Component R18 10k
+Added Member To Class: ClassName=IC_Schematic Member=Component VBAT Pad
+Added Member To Class: ClassName=IC_Schematic Member=Component VBUS Pad
+Added Member To Class: ClassName=IC_Schematic Member=Component XTAL Pad

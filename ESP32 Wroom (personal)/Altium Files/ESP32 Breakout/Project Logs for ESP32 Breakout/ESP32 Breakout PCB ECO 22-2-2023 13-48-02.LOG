@@ -1,0 +1,48 @@
+Removed Pin From Net: NetName=DTR Pin=Q1-2
+Removed Pin From Net: NetName=RTS Pin=Q2-2
+Removed Pin From Net: NetName=DTR Pin=Q3-2
+Removed Pin From Net: NetName=RTS Pin=Q4-2
+Removed Pin From Net: NetName=RTS Pin=R7-1
+Removed Pin From Net: NetName=DTR Pin=R8-2
+Removed Pin From Net: NetName=DTR Pin=R11-1
+Removed Pin From Net: NetName=RTS Pin=R12-2
+Change Component Designator: OldDesignator=Sldr2 NewDesignator=Sldr1
+Added Component: Designator=Sldr_BJT1(RES_0603)
+Added Component: Designator=Sldr_BJT2(RES_0603)
+Added Component: Designator=Sldr_BJT3(RES_0603)
+Added Component: Designator=Sldr_MOS1(RES_0603)
+Added Component: Designator=Sldr_MOS2(RES_0603)
+Add Pin To Net: Unknown Pin: Pin J1-A1
+Add Pin To Net: Unknown Pin: Pin J1-A4
+Add Pin To Net: Unknown Pin: Pin J1-A9
+Add Pin To Net: Unknown Pin: Pin J1-A12
+Add Pin To Net: Unknown Pin: Pin J1-B1
+Add Pin To Net: Unknown Pin: Pin J1-B4
+Add Pin To Net: Unknown Pin: Pin J1-B9
+Add Pin To Net: Unknown Pin: Pin J1-B12
+Added Pin To Net: NetName=DTR Pin=Sldr_BJT1-2
+Added Pin To Net: NetName=RTS Pin=Sldr_BJT3-2
+Added Pin To Net: NetName=DTR Pin=Sldr_MOS1-2
+Added Pin To Net: NetName=RTS Pin=Sldr_MOS2-2
+Change Net Name : Old Net Name=NetSolder2_2 New Net Name=NetSldr1_2
+Added Pin To Net: NetName=NetQ1_2 Pin=Q1-2
+Added Pin To Net: NetName=NetQ1_2 Pin=R11-1
+Added Pin To Net: NetName=NetQ1_2 Pin=Sldr_MOS1-1
+Added Net: Name=NetQ1_2
+Added Pin To Net: NetName=NetQ2_2 Pin=Q2-2
+Added Pin To Net: NetName=NetQ2_2 Pin=R12-2
+Added Pin To Net: NetName=NetQ2_2 Pin=Sldr_BJT3-1
+Added Net: Name=NetQ2_2
+Added Pin To Net: NetName=NetQ3_2 Pin=Q3-2
+Added Pin To Net: NetName=NetQ3_2 Pin=R8-2
+Added Pin To Net: NetName=NetQ3_2 Pin=Sldr_BJT1-1
+Added Net: Name=NetQ3_2
+Added Pin To Net: NetName=NetQ4_2 Pin=Q4-2
+Added Pin To Net: NetName=NetQ4_2 Pin=R7-1
+Added Pin To Net: NetName=NetQ4_2 Pin=Sldr_MOS2-1
+Added Net: Name=NetQ4_2
+Added Member To Class: ClassName=IC_Programmers Member=Component Sldr_BJT1 R0603
+Added Member To Class: ClassName=IC_Programmers Member=Component Sldr_BJT2 R0603
+Added Member To Class: ClassName=IC_Programmers Member=Component Sldr_BJT3 R0603
+Added Member To Class: ClassName=IC_Programmers Member=Component Sldr_MOS1 R0603
+Added Member To Class: ClassName=IC_Programmers Member=Component Sldr_MOS2 R0603

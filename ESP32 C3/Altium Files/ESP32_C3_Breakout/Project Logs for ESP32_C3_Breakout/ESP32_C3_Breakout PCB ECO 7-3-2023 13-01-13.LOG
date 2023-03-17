@@ -1,0 +1,19 @@
+Removed Member From Class: ClassName=IC_Schematic Member=J2
+Add Component: Footprint Not Found LIS3DHTR
+Added Component: Designator=P2(MHDR1X2)
+Add component (AddParameter): Name = "LatestRevisionDate"; Value = "17-Jul-2002"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionNote"; Value = "Re-released for DXP Platform."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Add Pin To Net: Unknown Pin: Pin AC1-1
+Add Pin To Net: Unknown Pin: Pin AC1-4
+Add Pin To Net: Unknown Pin: Pin AC1-5
+Add Pin To Net: Unknown Pin: Pin AC1-6
+Add Pin To Net: Unknown Pin: Pin AC1-7
+Add Pin To Net: Unknown Pin: Pin AC1-8
+Add Pin To Net: Unknown Pin: Pin AC1-10
+Add Pin To Net: Unknown Pin: Pin AC1-12
+Add Pin To Net: Unknown Pin: Pin AC1-14
+Added Pin To Net: NetName=VBUS Pin=P2-1
+Added Pin To Net: NetName=VBAT Pin=P2-2
+Add Class Member: Failed to add class member : Component AC1 LIS3DHTR
+Added Member To Class: ClassName=IC_Schematic Member=Component P2 VBUS

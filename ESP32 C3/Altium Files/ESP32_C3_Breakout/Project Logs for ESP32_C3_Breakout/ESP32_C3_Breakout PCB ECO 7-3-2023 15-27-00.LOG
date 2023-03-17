@@ -1,0 +1,19 @@
+Added Component: Designator=AC1(LIS3DHTR)
+Add component (AddParameter): Name = "Arrow Part Number"; Value = "LIS3DHTR"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Arrow Price/Stock"; Value = "https://www.arrow.com/en/products/lis3dhtr/stmicroelectronics"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet Link"; Value = "http://www.st.com/content/ccc/resource/technical/document/datasheet/3c/ae/50/85/d6/b1/46/fe/CD00274221.pdf/files/CD00274221.pdf/jcr:content/translations/en.CD00274221.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Height"; Value = "1mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Name"; Value = "STMicroelectronics"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Part_Number"; Value = "LIS3DHTR"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Part Number"; Value = "511-LIS3DHTR"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Price/Stock"; Value = "https://www.mouser.co.uk/ProductDetail/STMicroelectronics/LIS3DHTR?qs=6la6oa3D8xzhXYax3cEo4w%3D%3D"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=3.3V Pin=AC1-1
+Added Pin To Net: NetName=SCL Pin=AC1-4
+Added Pin To Net: NetName=GND Pin=AC1-5
+Added Pin To Net: NetName=GPIO9/SDA Pin=AC1-6
+Added Pin To Net: NetName=NetAC1_7 Pin=AC1-7
+Added Pin To Net: NetName=NetAC1_8 Pin=AC1-8
+Added Pin To Net: NetName=GND Pin=AC1-10
+Added Pin To Net: NetName=GND Pin=AC1-12
+Added Pin To Net: NetName=3.3V Pin=AC1-14
+Added Member To Class: ClassName=Sensors Member=Component AC1 LIS3DHTR

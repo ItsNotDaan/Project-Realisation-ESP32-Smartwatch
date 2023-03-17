@@ -1,0 +1,3 @@
+Change Component Comment: Designator=U4 Old Comment=MCP1825S-5002E/DB New Comment=MCP1825S-1202E/DB
+Change Component Designator: OldDesignator=AMP_O NewDesignator=MIC_O
+Change Component Designator: OldDesignator=MIC NewDesignator=MIC_R

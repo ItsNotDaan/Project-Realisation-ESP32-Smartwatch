@@ -1,0 +1,23 @@
+----------------------------------------------------------------------------------------------------------------------------------
+NCDrill File Report For: ESP32_C3_Breakout.PcbDoc   13-3-2023  09:08:14
+----------------------------------------------------------------------------------------------------------------------------------
+
+Layer Pair : Top Layer to Bottom Layer
+ASCII RoundHoles File : ESP32_C3_Breakout-RoundHoles.TXT
+ASCII SlotHoles File : ESP32_C3_Breakout-SlotHoles.TXT
+
+Tool       Hole Size               Hole Tolerance               Hole Type       Hole Count   Plated         Tool Travel
+----------------------------------------------------------------------------------------------------------------------------------
+T1      0.5mm (20mil)                                             Round             5         PTH        65.35mm (2.57inch)
+T2      0.6mm (24mil)                                             Round             3         PTH        32.08mm (1.26inch)
+T3      0.6mm (24mil)                                             Slot              4         PTH        47.63mm (1.88inch)
+T4      0.7mm (28mil)                                             Round             41        PTH        342.06mm (13.47inch)
+T5      0.711mm (28mil)                                           Round             58        PTH        389.84mm (15.35inch)
+T6      1mm (39mil)                                               Round             8         PTH        42.39mm (1.67inch)
+T7      1.05mm (41mil)                                            Round             2         PTH        7.62mm (0.30inch)
+T8      1.1mm (43mil)                                             Round             8         PTH        20.07mm (0.79inch)
+T9      0.65mm (26mil)                                            Round             2         NPTH       5.78mm (0.23inch)
+----------------------------------------------------------------------------------------------------------------------------------
+Totals                                                                              131
+
+Total Processing Time (hh:mm:ss) : 00:00:00

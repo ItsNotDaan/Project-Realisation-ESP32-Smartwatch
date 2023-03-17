@@ -1,0 +1,25 @@
+Change Component Footprint: Designator=C5 Old Footprint=CAP_0603 New Footprint=CAP_1206
+Change Component Footprint: Designator=C6 Old Footprint=CAP_0603 New Footprint=CAP_1206
+Change Component Footprint: Designator=D4 Old Footprint=LED_0402_GREEN New Footprint=LED_1206
+Change Component Footprint: Designator=R4 Old Footprint=RES_0603 New Footprint=RES_1206
+Change Component Footprint: Designator=R5 Old Footprint=RES_0603 New Footprint=RES_1206
+Change Component Comment : Designator=D4 Old Comment=GREEN New Comment=LED BAT
+Change component parameters: Designator = "D4" ("D4"); Footprint = "LED_0402_GREEN"; UniqueID = "\GFSPVYUX" ("\GFSPVYUX")
+Change component parameters (AddParameter): Name = "Availability"; Value = "Unavailable"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "MF"; Value = "Lite-On Inc."; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "MP"; Value = "LTST-C230KSKT"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package"; Value = "1206 Lite-On"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Price"; Value = "None"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "SnapEDA_Link"; Value = "https://www.snapeda.com/parts/LTST-C230KSKT/Lite-On%20Inc./view-part/264912/?ref=snap"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Add Pin To Net: Unknown Pin: Pin J1-A1
+Add Pin To Net: Unknown Pin: Pin J1-A4
+Add Pin To Net: Unknown Pin: Pin J1-A9
+Add Pin To Net: Unknown Pin: Pin J1-A12
+Add Pin To Net: Unknown Pin: Pin J1-B1
+Add Pin To Net: Unknown Pin: Pin J1-B4
+Add Pin To Net: Unknown Pin: Pin J1-B9
+Add Pin To Net: Unknown Pin: Pin J1-B12
+Added Pin To Net: NetName=NetD4_C Pin=D4-C
+Added Pin To Net: NetName=NetD4_C Pin=R5-2
+Added Net: Name=NetD4_C
