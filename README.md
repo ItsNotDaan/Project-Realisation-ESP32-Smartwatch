@@ -8,4 +8,4 @@ ESP32 Wroom PCB Design - Personal Project
 
 ESP32-C3 PCB Design - Test Board for final smartwatch
 
-ES32-C3 Smartwatch PCB design
+ES32 Smartwatch PCB design
