@@ -1,0 +1,155 @@
+Change component parameters: Designator = "Y1" ("Y1"); Footprint = "FP-ABS07-120-MFG"; UniqueID = "\CHUMHHXC" ("\CHUMHHXC")
+Change component parameters (AddParameter): Name = "Case/Package"; Value = "SMD/SMT"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Depth"; Value = "1.5mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ESR (Equivalent Series Resistance)"; Value = "55kR"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Frequency"; Value = "32.768kHz"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Frequency Tolerance"; Value = "20ppm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Height"; Value = "0.035inch"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Lead Free"; Value = "Lead Free"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Length"; Value = "3.2mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Load Capacitance"; Value = "6pF"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Max Operating Temperature"; Value = "85°C"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Min Operating Temperature"; Value = "-40°C"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mount"; Value = "Surface Mount"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Number of Pins"; Value = "2"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Operating Frequency"; Value = "32.768 kHz"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package Quantity"; Value = "3000"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Packaging"; Value = "Tape and Reel"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Radiation Hardening"; Value = "No"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "REACH SVHC"; Value = "No SVHC"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "RoHS Compliant"; Value = "Yes"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Series"; Value = "ABS07"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Series Resistance"; Value = "60kR"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Termination"; Value = "SMD/SMT"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Tolerance"; Value = "20ppm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Width"; Value = "0.061inch"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=1.8V Pin=C2-2
+Added Pin To Net: NetName=1.8V Pin=C5-2
+Added Pin To Net: NetName=1.8V Pin=C8-2
+Added Pin To Net: NetName=1.8V Pin=Heatbeat1-11
+Added Pin To Net: NetName=1.8V Pin=IC1-1
+Added Pin To Net: NetName=1.8V Pin=IC2-5
+Added Pin To Net: NetName=1.8V Pin=R1-1
+Added Pin To Net: NetName=1.8V Pin=R2-1
+Added Net: Name=1.8V
+Added Pin To Net: NetName=3.3V Pin=Accmtr1-1
+Added Pin To Net: NetName=3.3V Pin=Accmtr1-14
+Added Pin To Net: NetName=3.3V Pin=C3-2
+Added Pin To Net: NetName=3.3V Pin=C6-2
+Added Pin To Net: NetName=3.3V Pin=C7-2
+Added Pin To Net: NetName=3.3V Pin=C10-2
+Added Pin To Net: NetName=3.3V Pin=C11-2
+Added Pin To Net: NetName=3.3V Pin=C12-2
+Added Pin To Net: NetName=3.3V Pin=C13-2
+Added Pin To Net: NetName=3.3V Pin=Gyro1-1
+Added Pin To Net: NetName=3.3V Pin=Gyro1-15
+Added Pin To Net: NetName=3.3V Pin=Gyro1-16
+Added Pin To Net: NetName=3.3V Pin=Heatbeat1-9
+Added Pin To Net: NetName=3.3V Pin=Heatbeat1-10
+Added Pin To Net: NetName=3.3V Pin=IC1-8
+Added Pin To Net: NetName=3.3V Pin=IC2-1
+Added Pin To Net: NetName=3.3V Pin=P1-10
+Added Pin To Net: NetName=3.3V Pin=R3-1
+Added Pin To Net: NetName=3.3V Pin=R4-1
+Added Pin To Net: NetName=3.3V Pin=R5-1
+Added Pin To Net: NetName=3.3V Pin=R6-1
+Added Pin To Net: NetName=3.3V Pin=R7-2
+Added Pin To Net: NetName=3.3V Pin=R8-2
+Added Pin To Net: NetName=3.3V Pin=R9-1
+Added Pin To Net: NetName=3.3V Pin=R10-1
+Added Pin To Net: NetName=3.3V Pin=U1-8
+Added Net: Name=3.3V
+Added Pin To Net: NetName=CLK (2) Pin=P1-5
+Added Net: Name=CLK (2)
+Added Pin To Net: NetName=GND Pin=Accmtr1-5
+Added Pin To Net: NetName=GND Pin=Accmtr1-10
+Added Pin To Net: NetName=GND Pin=Accmtr1-12
+Added Pin To Net: NetName=GND Pin=C1-2
+Added Pin To Net: NetName=GND Pin=C2-1
+Added Pin To Net: NetName=GND Pin=C3-1
+Added Pin To Net: NetName=GND Pin=C4-2
+Added Pin To Net: NetName=GND Pin=C5-1
+Added Pin To Net: NetName=GND Pin=C6-1
+Added Pin To Net: NetName=GND Pin=C7-1
+Added Pin To Net: NetName=GND Pin=C8-1
+Added Pin To Net: NetName=GND Pin=C9-2
+Added Pin To Net: NetName=GND Pin=C10-1
+Added Pin To Net: NetName=GND Pin=C11-1
+Added Pin To Net: NetName=GND Pin=C12-1
+Added Pin To Net: NetName=GND Pin=C13-1
+Added Pin To Net: NetName=GND Pin=Gyro1-8
+Added Pin To Net: NetName=GND Pin=Gyro1-9
+Added Pin To Net: NetName=GND Pin=Gyro1-10
+Added Pin To Net: NetName=GND Pin=Gyro1-11
+Added Pin To Net: NetName=GND Pin=Gyro1-12
+Added Pin To Net: NetName=GND Pin=Gyro1-13
+Added Pin To Net: NetName=GND Pin=Heatbeat1-4
+Added Pin To Net: NetName=GND Pin=Heatbeat1-12
+Added Pin To Net: NetName=GND Pin=IC1-4
+Added Pin To Net: NetName=GND Pin=IC2-2
+Added Pin To Net: NetName=GND Pin=P1-9
+Added Pin To Net: NetName=GND Pin=U1-4
+Added Net: Name=GND
+Added Pin To Net: NetName=GPIO9/SDA Pin=Accmtr1-6
+Added Pin To Net: NetName=GPIO9/SDA Pin=Gyro1-3
+Added Pin To Net: NetName=GPIO9/SDA Pin=IC1-6
+Added Pin To Net: NetName=GPIO9/SDA Pin=R5-2
+Added Net: Name=GPIO9/SDA
+Added Pin To Net: NetName=IO4, BL(6) Pin=P1-1
+Added Net: Name=IO4, BL(6)
+Added Pin To Net: NetName=IO5, CS(3) Pin=P1-4
+Added Net: Name=IO5, CS(3)
+Added Pin To Net: NetName=IO16, RST(5) Pin=P1-2
+Added Net: Name=IO16, RST(5)
+Added Pin To Net: NetName=IO17, D/MD(4) Pin=P1-3
+Added Net: Name=IO17, D/MD(4)
+Added Pin To Net: NetName=MOSI (1) Pin=P1-6
+Added Net: Name=MOSI (1)
+Added Pin To Net: NetName=NetAccmtr1_7 Pin=Accmtr1-7
+Added Pin To Net: NetName=NetAccmtr1_7 Pin=R10-2
+Added Net: Name=NetAccmtr1_7
+Added Pin To Net: NetName=NetAccmtr1_8 Pin=Accmtr1-8
+Added Pin To Net: NetName=NetAccmtr1_8 Pin=R9-2
+Added Net: Name=NetAccmtr1_8
+Added Pin To Net: NetName=NetC1_1 Pin=C1-1
+Added Pin To Net: NetName=NetC1_1 Pin=U1-1
+Added Pin To Net: NetName=NetC1_1 Pin=Y1-1
+Added Net: Name=NetC1_1
+Added Pin To Net: NetName=NetC4_1 Pin=C4-1
+Added Pin To Net: NetName=NetC4_1 Pin=U1-2
+Added Pin To Net: NetName=NetC4_1 Pin=Y1-2
+Added Net: Name=NetC4_1
+Added Pin To Net: NetName=NetC9_1 Pin=C9-1
+Added Pin To Net: NetName=NetC9_1 Pin=Gyro1-14
+Added Net: Name=NetC9_1
+Added Pin To Net: NetName=NetGyro1_4 Pin=Gyro1-4
+Added Pin To Net: NetName=NetGyro1_4 Pin=R7-1
+Added Net: Name=NetGyro1_4
+Added Pin To Net: NetName=NetGyro1_5 Pin=Gyro1-5
+Added Pin To Net: NetName=NetGyro1_5 Pin=R8-1
+Added Net: Name=NetGyro1_5
+Added Pin To Net: NetName=NetIC1_5 Pin=IC1-5
+Added Pin To Net: NetName=NetIC1_5 Pin=R3-2
+Added Net: Name=NetIC1_5
+Added Pin To Net: NetName=NetIC2_3 Pin=IC2-3
+Added Pin To Net: NetName=NetIC2_3 Pin=R6-2
+Added Net: Name=NetIC2_3
+Added Pin To Net: NetName=SCL_HRS Pin=Heatbeat1-2
+Added Pin To Net: NetName=SCL_HRS Pin=IC1-2
+Added Pin To Net: NetName=SCL_HRS Pin=R2-2
+Added Net: Name=SCL_HRS
+Added Pin To Net: NetName=SCL Pin=Accmtr1-4
+Added Pin To Net: NetName=SCL Pin=Gyro1-2
+Added Pin To Net: NetName=SCL Pin=IC1-7
+Added Pin To Net: NetName=SCL Pin=P1-8
+Added Pin To Net: NetName=SCL Pin=R4-2
+Added Pin To Net: NetName=SCL Pin=U1-6
+Added Net: Name=SCL
+Added Pin To Net: NetName=SDA_HRS Pin=Heatbeat1-3
+Added Pin To Net: NetName=SDA_HRS Pin=IC1-3
+Added Pin To Net: NetName=SDA_HRS Pin=R1-2
+Added Net: Name=SDA_HRS
+Added Pin To Net: NetName=SDA Pin=P1-7
+Added Pin To Net: NetName=SDA Pin=U1-5
+Added Net: Name=SDA
+Added Class: Name=Sensor_Schem

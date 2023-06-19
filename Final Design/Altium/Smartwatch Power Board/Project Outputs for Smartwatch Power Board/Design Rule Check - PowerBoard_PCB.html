@@ -1,0 +1,436 @@
+<html>
+<head>
+<META http-equiv="Content-Type" content="text/html">
+<style type="text/css">
+		h1, h2, h3, h4, h5, h6 {
+			font-family : segoe ui;
+			color : black;
+			background-color : #EDE7D9;
+			padding: 0.3em;
+		}
+
+		h1 {
+			font-size: 1.2em;
+		}		
+
+		h2 {
+			font-size: 1.2em;
+		}
+
+		body {
+			font-family : segoe ui;
+		}
+
+		td, th {
+			padding: 0.5em;
+			text-align : left;
+			width: 10em;
+		}
+		th {
+			background-color : #EEEEEE;
+
+		}
+		th.column1, td.column1 {
+			text-align: left;
+			width : auto;
+		}
+		table {
+			width : 100%;
+			font-size: 0.9em;
+		}
+
+		.DRC_summary_header {
+			padding-bottom : 0.1em;
+			border : 0px solid black;
+			width: 100%;
+			align: left;
+		}
+
+		.DRC_summary_header_col1,
+		.DRC_summary_header_col2, 
+		.DRC_summary_header_col3 {
+			color : black;
+			font-size:100%;
+			padding : 0em;
+			padding-top : 0.2em;
+			padding-bottom 0.2em;
+			border : 0px solid black;
+			vertical-align: top;
+			text-align: left;
+		}
+
+		.DRC_summary_header_col1 {
+			font-weight: bold;
+			width: 9em;
+		}
+
+		.DRC_summary_header_col2 {
+			width: 0.1em;
+		
+		}
+
+		.DRC_summary_header_col3 {
+			width : auto;
+		}
+
+		.header_holder {
+		    Width = 100%;
+		    border = 0px solid green;
+		    padding = 0;
+		}
+
+
+		.front_matter, .front_matter_column1, .front_matter_column2, .front_matter_column3
+		{
+			left : 0;
+			top : 0;
+			padding: 0em;
+			padding-top : 0.1em;
+			border : 0px solid black;
+			width : 100%;
+			vertical-align: top;
+			text-align: left;
+		}
+
+		.front_matter_column1 {
+			width : 8em;
+			font-weight: bold;
+		}
+
+		.front_matter_column2 {
+			width: 0.1em;
+		}
+
+		.front_matter_column3 {
+			width : auto;
+		}
+
+		.total_column1, .total_column {
+			font-weight : bold;
+		}
+		.total_column1 {
+			text-align : left;
+		}
+		.warning, .error {
+			color : red;
+			font-weight : bold;
+		}
+		tr.onmouseout_odd {
+			background-color : #white;
+		}
+		tr.onmouseout_even { 
+			background-color : #FAFAFA;
+		}
+		tr.onmouseover_odd, tr.onmouseover_even { 
+			background-color : #EEEEEE;
+		} 
+		a:link, a:visited, .q a:link,.q a:active,.q {
+			color: #21489e; 
+		}
+		a:link.callback, a:visited.callback { 
+			color: #21489e;
+		}
+		a:link.customize, a:visited.customize {
+			color: #C0C0C0;
+			position: absolute; 
+			right: 10px;
+		}	
+		p.contents_level1 {
+			font-weight : bold;
+			font-size : 110%;
+			margin : 0.5em;
+		}
+		p.contents_level2 {
+			position : relative;
+			left : 20px;
+			margin : 0.5em;
+		}
+	</style><script type="text/javascript">
+		function coordToMils(coord) {
+			var number = coord / 10000;
+			
+			if (number != number.toFixed(3))
+				number = number.toFixed(3);
+
+			return number + 'mil'
+		}
+
+		function coordToMM(coord) {
+			var number = 0.0254 * coord / 10000;
+			
+			if (number != number.toFixed(4))
+				number = number.toFixed(4);
+			
+			return number + 'mm'
+		}
+	
+		function convertCoord(coordNode, units) {
+			for (var i = 0; i < coordNode.childNodes.length; i++) {
+				coordNode.removeChild(coordNode.childNodes[i]);
+			}
+
+			var coord = coordNode.getAttribute('value');
+			if (coord != null) {
+				if (units == 'mm') {
+					textNode = document.createTextNode(coordToMM(coord));
+					coordNode.appendChild(textNode);
+				} else if (units == 'mil') {
+					textNode = document.createTextNode(coordToMils(coord));		
+					coordNode.appendChild(textNode);	
+				}
+			}
+		}
+	
+		function convertUnits(unitNode, units) {
+			for (var i = 0; i < unitNode.childNodes.length; i++) {
+				unitNode.removeChild(unitNode.childNodes[i]);		
+			}
+		
+			textNode = document.createTextNode(units); 
+			unitNode.appendChild(textNode);
+		}
+	
+		function changeUnits(radio_input, units) {
+			if (radio_input.checked) {
+			
+				var elements = document.getElementsByName('coordinate');
+				if (elements) {
+					for (var i = 0; i < elements.length; i++) {
+						convertCoord(elements[i], units);
+					}
+				}
+	
+				var elements = document.getElementsByName('units');
+				if (elements) {
+					for (var i = 0; i < elements.length; i++) {
+						convertUnits(elements[i], units);
+					}
+				}
+			}
+		}
+	</script><title>Design Rule Verification Report</title>
+</head>
+<body onload=""><img ALT="Altium" src="
+			file://C:\Users\Public\Documents\Altium\AD22\Templates\AD_logo.png
+		"><h1>Design Rule Verification Report</h1>
+<table class="header_holder">
+<td class="column1">
+<table class="front_matter">
+<tr class="front_matter">
+<td class="front_matter_column1">Date:</td>
+<td class="front_matter_column2"></td>
+<td class="front_matter_column3">8-5-2023</td>
+</tr>
+<tr class="front_matter">
+<td class="front_matter_column1">Time:</td>
+<td class="front_matter_column2"></td>
+<td class="front_matter_column3">10:11:09</td>
+</tr>
+<tr class="front_matter">
+<td class="front_matter_column1">Elapsed Time:</td>
+<td class="front_matter_column2"></td>
+<td class="front_matter_column3">00:00:01</td>
+</tr>
+<tr class="front_matter">
+<td class="front_matter_column1">Filename:</td>
+<td class="front_matter_column2"></td>
+<td class="front_matter_column3"><a href="file:///C:\Users\Daanh\OneDrive - Saxion\Documents\Saxion\Project Integration\Docs\6. Final Design\Altium\Smartwatch Power Board\PowerBoard_PCB.PcbDoc" class="file"><acronym title="C:\Users\Daanh\OneDrive - Saxion\Documents\Saxion\Project Integration\Docs\6. Final Design\Altium\Smartwatch Power Board\PowerBoard_PCB.PcbDoc">C:\Users\Daanh\OneDrive - Saxion\Documents\Saxion\Project Integration\Docs\6. Final Design\Altium\Smartwatch Power Board\PowerBoard_PCB.PcbDoc</acronym></a></td>
+</tr>
+</table>
+</td>
+<td class="column2">
+<table class="DRC_summary_header">
+<tr>
+<td class="DRC_summary_header_col1">Warnings:</td>
+<td class="DRC_summary_header_col2"></td>
+<td class="DRC_summary_header_col3">0</td></tr>
+<tr>
+<td class="DRC_summary_header_col1">Rule Violations:</td>
+<td class="DRC_summary_header_col2"></td>
+<td class="DRC_summary_header_col3" style="color : red">32</td></tr>
+</table>
+</td>
+</table><a name="IDS00ZQTII0NRAFOYRM0W2YKOKXJH3VTF3RFRJUNHFOJPJQZP0FVRF"><h2>Summary</h2></a><table>
+<tr>
+<th class="column1">Warnings</th>
+<th class="column2">Count</th>
+</tr>
+<tr>
+<td style="font-weight : bold; text-align : right" class="column1">Total</td>
+<td style="font-weight : bold" class="column2">0</td>
+</tr>
+</table><br><table>
+<tr>
+<th class="column1">Rule Violations</th>
+<th class="column2">Count</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#ID204MF3FQ3LMGMIMXJKE2LY12XIT33BAK50ZEALDDB0K0OHM1RT3J">Clearance Constraint (Gap=0.23mm) (All),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDUNELNGMLEW4YI0XAARIPGL0ZUNTWBO2HR1EWTMUTKV1YIILM0GM">Short-Circuit Constraint (Allowed=No) (All),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDZQZDB2XQ5XXROOOLR3KHFW0BFMNB3AMLL1KPIIPF2CCWUBJMABIH">Un-Routed Net Constraint ( (All) )</a></td>
+<td class="column2">2</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDNQ1VQWVXB5E3WOVAZJVYNKDFCNGOAM1P42CFBBHYW1MXKQSFH5">Modified Polygon (Allow modified: No), (Allow shelved: No)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDA0CXA1YEOHZ4KVDGTIJ2E2SBDZPQK5S144GURLY34MZBPUY1EUI">Width Constraint (Min=0.254mm) (Max=0.5mm) (Preferred=0.3mm) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDKZPFZGO5BKFHNVZFV1WRAITTWLSFBANUQ4Y3IAKWSUQOK5Y2QKBN">Power Plane Connect Rule(Relief Connect )(Expansion=0.508mm) (Conductor Width=0.254mm) (Air Gap=0.254mm) (Entries=4) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDMUSMFCC1H5DBO1S4CILLH5MXHIWJY55L4CYUKDIXARD1BYHIHG4G">Hole Size Constraint (Min=0.025mm) (Max=2.54mm) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDDO3BR5CIXVKZBQ3ECIHDXHAETDHOQATARLBDBXOSKOZ0Z0ZRBGGI">Hole To Hole Clearance (Gap=0.254mm) (All),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDV4MYZZHJ4JBRIERM1ZISRUHBBMGOQYNL33J04RF0PLFQFILGUEKI">Minimum Solder Mask Sliver (Gap=0.254mm) (All),(All)</a></td>
+<td class="column2">3</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#ID3DH5W3HC45GYP4SU5BMPAE5ZTBTSMUN2S0TEPHNYPO0NS53XLHXF">Silk To Solder Mask (Clearance=0.254mm) (IsPad),(All)</a></td>
+<td class="column2">12</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDJSGPNBXZM0NFPWMBMPMK5H2Y1HKH0KODY4YUYBB3EUEGHHGVEJK">Silk to Silk (Clearance=0.254mm) (All),(All)</a></td>
+<td class="column2">15</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDLGU5N0AXXUTUJ000JKVAP4ED3J0RRFGXLQA3QVNN5VPNXXGC2Y2N">Net Antennae (Tolerance=0mm) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDEIXPAQEXLFTVJWJR5LPDIFQ4BN3VAGZANUIPTDKLU2VC1YUZGWM">Height Constraint (Min=0mm) (Max=25.4mm) (Prefered=12.7mm) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr>
+<td style="font-weight : bold; text-align : right" class="column1">Total</td>
+<td style="font-weight : bold" class="column2">32</td>
+</tr>
+</table><br><a name="IDZQZDB2XQ5XXROOOLR3KHFW0BFMNB3AMLL1KPIIPF2CCWUBJMABIH"><table>
+<tr>
+<th style="text-align : left" colspan="1" class="rule">Un-Routed Net Constraint ( (All) )</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Daanh\OneDrive - Saxion\Documents\Saxion\Project Integration\Docs\6. Final Design\Altium\Smartwatch Power Board\PowerBoard_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=23.622mil|Location2.X=1687.165mil|Location1.Y=-42.441mil|Location2.Y=1621.102mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Daanh\OneDrive - Saxion\Documents\Saxion\Project Integration\Docs\6. Final Design\Altium\Smartwatch Power Board\PowerBoard_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=23.622mil|Location2.X=1687.165mil|Location1.Y=-42.441mil|Location2.Y=1621.102mil|Absolute=True">Un-Routed Net Constraint: Arc (21.727mm,20.049mm) on Top Layer Dead Copper - Net Not Assigned.</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Daanh\OneDrive - Saxion\Documents\Saxion\Project Integration\Docs\6. Final Design\Altium\Smartwatch Power Board\PowerBoard_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=26.063mil|Location2.X=1689.606mil|Location1.Y=-40.079mil|Location2.Y=1623.465mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Daanh\OneDrive - Saxion\Documents\Saxion\Project Integration\Docs\6. Final Design\Altium\Smartwatch Power Board\PowerBoard_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=26.063mil|Location2.X=1689.606mil|Location1.Y=-40.079mil|Location2.Y=1623.465mil|Absolute=True">Un-Routed Net Constraint: Arc (21.789mm,20.109mm) on Top Layer Dead Copper - Net Not Assigned.</acronym></a><br></td>
+</tr>
+</table></a><hr color="#EEEEEE"><a href="#top" style="font-size: 0.9em">Back to top</a><br><br><a name="IDV4MYZZHJ4JBRIERM1ZISRUHBBMGOQYNL33J04RF0PLFQFILGUEKI"><table>
+<tr>
+<th style="text-align : left" colspan="1" class="rule">Minimum Solder Mask Sliver (Gap=0.254mm) (All),(All)</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Daanh\OneDrive - Saxion\Documents\Saxion\Project Integration\Docs\6. Final Design\Altium\Smartwatch Power Board\PowerBoard_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1031.344mil|Location2.X=1042.594mil|Location1.Y=388.375mil|Location2.Y=399.625mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Daanh\OneDrive - Saxion\Documents\Saxion\Project Integration\Docs\6. Final Design\Altium\Smartwatch Power Board\PowerBoard_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1031.344mil|Location2.X=1042.594mil|Location1.Y=388.375mil|Location2.Y=399.625mil|Absolute=True">Minimum Solder Mask Sliver Constraint: (0.178mm &lt; 0.254mm) Between Pad U1-1(26.809mm,9.246mm) on Top Layer And Pad U1-2(25.869mm,9.246mm) on Top Layer [Top Solder] Mask Sliver [0.178mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Daanh\OneDrive - Saxion\Documents\Saxion\Project Integration\Docs\6. Final Design\Altium\Smartwatch Power Board\PowerBoard_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=994.344mil|Location2.X=1005.594mil|Location1.Y=388.375mil|Location2.Y=399.625mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Daanh\OneDrive - Saxion\Documents\Saxion\Project Integration\Docs\6. Final Design\Altium\Smartwatch Power Board\PowerBoard_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=994.344mil|Location2.X=1005.594mil|Location1.Y=388.375mil|Location2.Y=399.625mil|Absolute=True">Minimum Solder Mask Sliver Constraint: (0.178mm &lt; 0.254mm) Between Pad U1-2(25.869mm,9.246mm) on Top Layer And Pad U1-3(24.929mm,9.246mm) on Top Layer [Top Solder] Mask Sliver [0.178mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Daanh\OneDrive - Saxion\Documents\Saxion\Project Integration\Docs\6. Final Design\Altium\Smartwatch Power Board\PowerBoard_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=754.375mil|Location2.X=765.625mil|Location1.Y=132.155mil|Location2.Y=143.405mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Daanh\OneDrive - Saxion\Documents\Saxion\Project Integration\Docs\6. Final Design\Altium\Smartwatch Power Board\PowerBoard_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=754.375mil|Location2.X=765.625mil|Location1.Y=132.155mil|Location2.Y=143.405mil|Absolute=True">Minimum Solder Mask Sliver Constraint: (0.197mm &lt; 0.254mm) Between Pad VBUS slct-1(18.804mm,3.048mm) on Top Layer And Pad VBUS slct-2(19.804mm,3.048mm) on Top Layer [Top Solder] Mask Sliver [0.197mm]</acronym></a><br></td>
+</tr>
+</table></a><hr color="#EEEEEE"><a href="#top" style="font-size: 0.9em">Back to top</a><br><br><a name="ID3DH5W3HC45GYP4SU5BMPAE5ZTBTSMUN2S0TEPHNYPO0NS53XLHXF"><table>
+<tr>
+<th style="text-align : left" colspan="1" class="rule">Silk To Solder Mask (Clearance=0.254mm) (IsPad),(All)</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Daanh\OneDrive - Saxion\Documents\Saxion\Project Integration\Docs\6. Final Design\Altium\Smartwatch Power Board\PowerBoard_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=821.501mil|Location2.X=832.751mil|Location1.Y=213.024mil|Location2.Y=224.274mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Daanh\OneDrive - Saxion\Documents\Saxion\Project Integration\Docs\6. Final Design\Altium\Smartwatch Power Board\PowerBoard_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=821.501mil|Location2.X=832.751mil|Location1.Y=213.024mil|Location2.Y=224.274mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.116mm &lt; 0.254mm) Between Pad D1-A(21.449mm,6.477mm) on Top Layer And Track (18.289mm,5.432mm)(21.589mm,5.432mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.116mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Daanh\OneDrive - Saxion\Documents\Saxion\Project Integration\Docs\6. Final Design\Altium\Smartwatch Power Board\PowerBoard_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=821.501mil|Location2.X=832.751mil|Location1.Y=285.725mil|Location2.Y=296.975mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Daanh\OneDrive - Saxion\Documents\Saxion\Project Integration\Docs\6. Final Design\Altium\Smartwatch Power Board\PowerBoard_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=821.501mil|Location2.X=832.751mil|Location1.Y=285.725mil|Location2.Y=296.975mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.116mm &lt; 0.254mm) Between Pad D1-A(21.449mm,6.477mm) on Top Layer And Track (18.339mm,7.522mm)(21.539mm,7.522mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.116mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Daanh\OneDrive - Saxion\Documents\Saxion\Project Integration\Docs\6. Final Design\Altium\Smartwatch Power Board\PowerBoard_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=737.249mil|Location2.X=748.499mil|Location1.Y=213.024mil|Location2.Y=224.274mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Daanh\OneDrive - Saxion\Documents\Saxion\Project Integration\Docs\6. Final Design\Altium\Smartwatch Power Board\PowerBoard_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=737.249mil|Location2.X=748.499mil|Location1.Y=213.024mil|Location2.Y=224.274mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.116mm &lt; 0.254mm) Between Pad D1-C(18.429mm,6.477mm) on Top Layer And Track (18.289mm,5.432mm)(21.589mm,5.432mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.116mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Daanh\OneDrive - Saxion\Documents\Saxion\Project Integration\Docs\6. Final Design\Altium\Smartwatch Power Board\PowerBoard_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=737.249mil|Location2.X=748.499mil|Location1.Y=285.725mil|Location2.Y=296.975mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Daanh\OneDrive - Saxion\Documents\Saxion\Project Integration\Docs\6. Final Design\Altium\Smartwatch Power Board\PowerBoard_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=737.249mil|Location2.X=748.499mil|Location1.Y=285.725mil|Location2.Y=296.975mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.116mm &lt; 0.254mm) Between Pad D1-C(18.429mm,6.477mm) on Top Layer And Track (18.339mm,7.522mm)(21.539mm,7.522mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.116mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Daanh\OneDrive - Saxion\Documents\Saxion\Project Integration\Docs\6. Final Design\Altium\Smartwatch Power Board\PowerBoard_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1051.509mil|Location2.X=1062.759mil|Location1.Y=1165.725mil|Location2.Y=1176.975mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Daanh\OneDrive - Saxion\Documents\Saxion\Project Integration\Docs\6. Final Design\Altium\Smartwatch Power Board\PowerBoard_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1051.509mil|Location2.X=1062.759mil|Location1.Y=1165.725mil|Location2.Y=1176.975mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.116mm &lt; 0.254mm) Between Pad D2-A(26.411mm,28.829mm) on Top Layer And Track (26.271mm,29.874mm)(29.571mm,29.874mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.116mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Daanh\OneDrive - Saxion\Documents\Saxion\Project Integration\Docs\6. Final Design\Altium\Smartwatch Power Board\PowerBoard_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1051.509mil|Location2.X=1062.759mil|Location1.Y=1093.024mil|Location2.Y=1104.274mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Daanh\OneDrive - Saxion\Documents\Saxion\Project Integration\Docs\6. Final Design\Altium\Smartwatch Power Board\PowerBoard_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1051.509mil|Location2.X=1062.759mil|Location1.Y=1093.024mil|Location2.Y=1104.274mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.116mm &lt; 0.254mm) Between Pad D2-A(26.411mm,28.829mm) on Top Layer And Track (26.321mm,27.784mm)(29.521mm,27.784mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.116mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Daanh\OneDrive - Saxion\Documents\Saxion\Project Integration\Docs\6. Final Design\Altium\Smartwatch Power Board\PowerBoard_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1135.761mil|Location2.X=1147.011mil|Location1.Y=1165.725mil|Location2.Y=1176.975mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Daanh\OneDrive - Saxion\Documents\Saxion\Project Integration\Docs\6. Final Design\Altium\Smartwatch Power Board\PowerBoard_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1135.761mil|Location2.X=1147.011mil|Location1.Y=1165.725mil|Location2.Y=1176.975mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.116mm &lt; 0.254mm) Between Pad D2-C(29.431mm,28.829mm) on Top Layer And Track (26.271mm,29.874mm)(29.571mm,29.874mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.116mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Daanh\OneDrive - Saxion\Documents\Saxion\Project Integration\Docs\6. Final Design\Altium\Smartwatch Power Board\PowerBoard_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1135.761mil|Location2.X=1147.011mil|Location1.Y=1093.024mil|Location2.Y=1104.274mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Daanh\OneDrive - Saxion\Documents\Saxion\Project Integration\Docs\6. Final Design\Altium\Smartwatch Power Board\PowerBoard_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1135.761mil|Location2.X=1147.011mil|Location1.Y=1093.024mil|Location2.Y=1104.274mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.116mm &lt; 0.254mm) Between Pad D2-C(29.431mm,28.829mm) on Top Layer And Track (26.321mm,27.784mm)(29.521mm,27.784mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.116mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Daanh\OneDrive - Saxion\Documents\Saxion\Project Integration\Docs\6. Final Design\Altium\Smartwatch Power Board\PowerBoard_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=648.287mil|Location2.X=659.537mil|Location1.Y=1093.024mil|Location2.Y=1104.274mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Daanh\OneDrive - Saxion\Documents\Saxion\Project Integration\Docs\6. Final Design\Altium\Smartwatch Power Board\PowerBoard_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=648.287mil|Location2.X=659.537mil|Location1.Y=1093.024mil|Location2.Y=1104.274mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.116mm &lt; 0.254mm) Between Pad D3-A(17.049mm,28.829mm) on Top Layer And Track (13.889mm,27.784mm)(17.189mm,27.784mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.116mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Daanh\OneDrive - Saxion\Documents\Saxion\Project Integration\Docs\6. Final Design\Altium\Smartwatch Power Board\PowerBoard_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=648.287mil|Location2.X=659.537mil|Location1.Y=1165.725mil|Location2.Y=1176.975mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Daanh\OneDrive - Saxion\Documents\Saxion\Project Integration\Docs\6. Final Design\Altium\Smartwatch Power Board\PowerBoard_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=648.287mil|Location2.X=659.537mil|Location1.Y=1165.725mil|Location2.Y=1176.975mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.116mm &lt; 0.254mm) Between Pad D3-A(17.049mm,28.829mm) on Top Layer And Track (13.939mm,29.874mm)(17.139mm,29.874mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.116mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Daanh\OneDrive - Saxion\Documents\Saxion\Project Integration\Docs\6. Final Design\Altium\Smartwatch Power Board\PowerBoard_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=564.035mil|Location2.X=575.285mil|Location1.Y=1093.024mil|Location2.Y=1104.274mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Daanh\OneDrive - Saxion\Documents\Saxion\Project Integration\Docs\6. Final Design\Altium\Smartwatch Power Board\PowerBoard_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=564.035mil|Location2.X=575.285mil|Location1.Y=1093.024mil|Location2.Y=1104.274mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.116mm &lt; 0.254mm) Between Pad D3-C(14.029mm,28.829mm) on Top Layer And Track (13.889mm,27.784mm)(17.189mm,27.784mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.116mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Daanh\OneDrive - Saxion\Documents\Saxion\Project Integration\Docs\6. Final Design\Altium\Smartwatch Power Board\PowerBoard_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=564.035mil|Location2.X=575.285mil|Location1.Y=1165.725mil|Location2.Y=1176.975mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Daanh\OneDrive - Saxion\Documents\Saxion\Project Integration\Docs\6. Final Design\Altium\Smartwatch Power Board\PowerBoard_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=564.035mil|Location2.X=575.285mil|Location1.Y=1165.725mil|Location2.Y=1176.975mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.116mm &lt; 0.254mm) Between Pad D3-C(14.029mm,28.829mm) on Top Layer And Track (13.939mm,29.874mm)(17.139mm,29.874mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.116mm]</acronym></a><br></td>
+</tr>
+</table></a><hr color="#EEEEEE"><a href="#top" style="font-size: 0.9em">Back to top</a><br><br><a name="IDJSGPNBXZM0NFPWMBMPMK5H2Y1HKH0KODY4YUYBB3EUEGHHGVEJK"><table>
+<tr>
+<th style="text-align : left" colspan="1" class="rule">Silk to Silk (Clearance=0.254mm) (All),(All)</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Daanh\OneDrive - Saxion\Documents\Saxion\Project Integration\Docs\6. Final Design\Altium\Smartwatch Power Board\PowerBoard_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=417.767mil|Location2.X=431.514mil|Location1.Y=1039.938mil|Location2.Y=1051.188mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Daanh\OneDrive - Saxion\Documents\Saxion\Project Integration\Docs\6. Final Design\Altium\Smartwatch Power Board\PowerBoard_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=417.767mil|Location2.X=431.514mil|Location1.Y=1039.938mil|Location2.Y=1051.188mil|Absolute=True">Silk To Silk Clearance Constraint: (0.108mm &lt; 0.254mm) Between Arc (10.414mm,27.94mm) on Top Overlay And Text "3.3V" (8.792mm,25.408mm) on Top Overlay Silk Text to Silk Clearance [0.108mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Daanh\OneDrive - Saxion\Documents\Saxion\Project Integration\Docs\6. Final Design\Altium\Smartwatch Power Board\PowerBoard_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1360.196mil|Location2.X=1371.446mil|Location1.Y=294.167mil|Location2.Y=305.417mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Daanh\OneDrive - Saxion\Documents\Saxion\Project Integration\Docs\6. Final Design\Altium\Smartwatch Power Board\PowerBoard_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1360.196mil|Location2.X=1371.446mil|Location1.Y=294.167mil|Location2.Y=305.417mil|Absolute=True">Silk To Silk Clearance Constraint: (0.186mm &lt; 0.254mm) Between Arc (34.544mm,9.07mm) on Top Overlay And Text "VBUS" (32.712mm,6.423mm) on Top Overlay Silk Text to Silk Clearance [0.186mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Daanh\OneDrive - Saxion\Documents\Saxion\Project Integration\Docs\6. Final Design\Altium\Smartwatch Power Board\PowerBoard_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=267.288mil|Location2.X=278.538mil|Location1.Y=522.894mil|Location2.Y=534.144mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Daanh\OneDrive - Saxion\Documents\Saxion\Project Integration\Docs\6. Final Design\Altium\Smartwatch Power Board\PowerBoard_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=267.288mil|Location2.X=278.538mil|Location1.Y=522.894mil|Location2.Y=534.144mil|Absolute=True">Silk To Silk Clearance Constraint: (0.195mm &lt; 0.254mm) Between Text "1" (6.932mm,12.912mm) on Top Overlay And Track (2.517mm,13.622mm)(7.747mm,13.622mm) on Top Overlay Silk Text to Silk Clearance [0.195mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Daanh\OneDrive - Saxion\Documents\Saxion\Project Integration\Docs\6. Final Design\Altium\Smartwatch Power Board\PowerBoard_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=160.989mil|Location2.X=172.239mil|Location1.Y=1049.056mil|Location2.Y=1060.306mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Daanh\OneDrive - Saxion\Documents\Saxion\Project Integration\Docs\6. Final Design\Altium\Smartwatch Power Board\PowerBoard_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=160.989mil|Location2.X=172.239mil|Location1.Y=1049.056mil|Location2.Y=1060.306mil|Absolute=True">Silk To Silk Clearance Constraint: (0.134mm &lt; 0.254mm) Between Text "10" (4.232mm,26.932mm) on Top Overlay And Track (2.517mm,26.622mm)(7.747mm,26.622mm) on Top Overlay Silk Text to Silk Clearance [0.134mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Daanh\OneDrive - Saxion\Documents\Saxion\Project Integration\Docs\6. Final Design\Altium\Smartwatch Power Board\PowerBoard_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=160.989mil|Location2.X=172.239mil|Location1.Y=523.653mil|Location2.Y=534.903mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Daanh\OneDrive - Saxion\Documents\Saxion\Project Integration\Docs\6. Final Design\Altium\Smartwatch Power Board\PowerBoard_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=160.989mil|Location2.X=172.239mil|Location1.Y=523.653mil|Location2.Y=534.903mil|Absolute=True">Silk To Silk Clearance Constraint: (0.157mm &lt; 0.254mm) Between Text "2" (4.232mm,12.612mm) on Top Overlay And Track (2.517mm,13.622mm)(7.747mm,13.622mm) on Top Overlay Silk Text to Silk Clearance [0.157mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Daanh\OneDrive - Saxion\Documents\Saxion\Project Integration\Docs\6. Final Design\Altium\Smartwatch Power Board\PowerBoard_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=260.624mil|Location2.X=271.874mil|Location1.Y=1049.056mil|Location2.Y=1060.306mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Daanh\OneDrive - Saxion\Documents\Saxion\Project Integration\Docs\6. Final Design\Altium\Smartwatch Power Board\PowerBoard_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=260.624mil|Location2.X=271.874mil|Location1.Y=1049.056mil|Location2.Y=1060.306mil|Absolute=True">Silk To Silk Clearance Constraint: (0.134mm &lt; 0.254mm) Between Text "9" (6.932mm,26.932mm) on Top Overlay And Track (2.517mm,26.622mm)(7.747mm,26.622mm) on Top Overlay Silk Text to Silk Clearance [0.134mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Daanh\OneDrive - Saxion\Documents\Saxion\Project Integration\Docs\6. Final Design\Altium\Smartwatch Power Board\PowerBoard_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1138.137mil|Location2.X=1149.387mil|Location1.Y=1176.888mil|Location2.Y=1188.138mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Daanh\OneDrive - Saxion\Documents\Saxion\Project Integration\Docs\6. Final Design\Altium\Smartwatch Power Board\PowerBoard_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1138.137mil|Location2.X=1149.387mil|Location1.Y=1176.888mil|Location2.Y=1188.138mil|Absolute=True">Silk To Silk Clearance Constraint: (0.197mm &lt; 0.254mm) Between Text "C3" (28.885mm,30.234mm) on Top Overlay And Track (26.271mm,29.874mm)(29.571mm,29.874mm) on Top Overlay Silk Text to Silk Clearance [0.197mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Daanh\OneDrive - Saxion\Documents\Saxion\Project Integration\Docs\6. Final Design\Altium\Smartwatch Power Board\PowerBoard_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=565.613mil|Location2.X=576.863mil|Location1.Y=1176.888mil|Location2.Y=1188.138mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Daanh\OneDrive - Saxion\Documents\Saxion\Project Integration\Docs\6. Final Design\Altium\Smartwatch Power Board\PowerBoard_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=565.613mil|Location2.X=576.863mil|Location1.Y=1176.888mil|Location2.Y=1188.138mil|Absolute=True">Silk To Silk Clearance Constraint: (0.197mm &lt; 0.254mm) Between Text "C4" (13.01mm,30.234mm) on Top Overlay And Track (13.939mm,29.874mm)(17.139mm,29.874mm) on Top Overlay Silk Text to Silk Clearance [0.197mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Daanh\OneDrive - Saxion\Documents\Saxion\Project Integration\Docs\6. Final Design\Altium\Smartwatch Power Board\PowerBoard_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=753.137mil|Location2.X=764.387mil|Location1.Y=204.362mil|Location2.Y=215.612mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Daanh\OneDrive - Saxion\Documents\Saxion\Project Integration\Docs\6. Final Design\Altium\Smartwatch Power Board\PowerBoard_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=753.137mil|Location2.X=764.387mil|Location1.Y=204.362mil|Location2.Y=215.612mil|Absolute=True">Silk To Silk Clearance Constraint: (0.07mm &lt; 0.254mm) Between Text "D1" (19.273mm,4.199mm) on Top Overlay And Track (18.289mm,5.432mm)(21.589mm,5.432mm) on Top Overlay Silk Text to Silk Clearance [0.07mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Daanh\OneDrive - Saxion\Documents\Saxion\Project Integration\Docs\6. Final Design\Altium\Smartwatch Power Board\PowerBoard_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1060.837mil|Location2.X=1072.087mil|Location1.Y=1081.862mil|Location2.Y=1093.112mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Daanh\OneDrive - Saxion\Documents\Saxion\Project Integration\Docs\6. Final Design\Altium\Smartwatch Power Board\PowerBoard_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1060.837mil|Location2.X=1072.087mil|Location1.Y=1081.862mil|Location2.Y=1093.112mil|Absolute=True">Silk To Silk Clearance Constraint: (0.197mm &lt; 0.254mm) Between Text "D2" (27.088mm,26.424mm) on Top Overlay And Track (26.321mm,27.784mm)(29.521mm,27.784mm) on Top Overlay Silk Text to Silk Clearance [0.197mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Daanh\OneDrive - Saxion\Documents\Saxion\Project Integration\Docs\6. Final Design\Altium\Smartwatch Power Board\PowerBoard_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=578.427mil|Location2.X=589.677mil|Location1.Y=1081.862mil|Location2.Y=1093.112mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Daanh\OneDrive - Saxion\Documents\Saxion\Project Integration\Docs\6. Final Design\Altium\Smartwatch Power Board\PowerBoard_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=578.427mil|Location2.X=589.677mil|Location1.Y=1081.862mil|Location2.Y=1093.112mil|Absolute=True">Silk To Silk Clearance Constraint: (0.197mm &lt; 0.254mm) Between Text "D3" (14.835mm,26.424mm) on Top Overlay And Track (13.889mm,27.784mm)(17.189mm,27.784mm) on Top Overlay Silk Text to Silk Clearance [0.197mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Daanh\OneDrive - Saxion\Documents\Saxion\Project Integration\Docs\6. Final Design\Altium\Smartwatch Power Board\PowerBoard_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=746.577mil|Location2.X=757.827mil|Location1.Y=296.888mil|Location2.Y=308.138mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Daanh\OneDrive - Saxion\Documents\Saxion\Project Integration\Docs\6. Final Design\Altium\Smartwatch Power Board\PowerBoard_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=746.577mil|Location2.X=757.827mil|Location1.Y=296.888mil|Location2.Y=308.138mil|Absolute=True">Silk To Silk Clearance Constraint: (0.197mm &lt; 0.254mm) Between Text "R3" (19.106mm,7.882mm) on Top Overlay And Track (18.339mm,7.522mm)(21.539mm,7.522mm) on Top Overlay Silk Text to Silk Clearance [0.197mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Daanh\OneDrive - Saxion\Documents\Saxion\Project Integration\Docs\6. Final Design\Altium\Smartwatch Power Board\PowerBoard_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1047.494mil|Location2.X=1058.744mil|Location1.Y=1176.888mil|Location2.Y=1188.138mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Daanh\OneDrive - Saxion\Documents\Saxion\Project Integration\Docs\6. Final Design\Altium\Smartwatch Power Board\PowerBoard_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1047.494mil|Location2.X=1058.744mil|Location1.Y=1176.888mil|Location2.Y=1188.138mil|Absolute=True">Silk To Silk Clearance Constraint: (0.197mm &lt; 0.254mm) Between Text "R6" (25.583mm,30.234mm) on Top Overlay And Track (26.271mm,29.874mm)(29.571mm,29.874mm) on Top Overlay Silk Text to Silk Clearance [0.197mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Daanh\OneDrive - Saxion\Documents\Saxion\Project Integration\Docs\6. Final Design\Altium\Smartwatch Power Board\PowerBoard_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=631.577mil|Location2.X=642.827mil|Location1.Y=1176.888mil|Location2.Y=1188.138mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Daanh\OneDrive - Saxion\Documents\Saxion\Project Integration\Docs\6. Final Design\Altium\Smartwatch Power Board\PowerBoard_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=631.577mil|Location2.X=642.827mil|Location1.Y=1176.888mil|Location2.Y=1188.138mil|Absolute=True">Silk To Silk Clearance Constraint: (0.197mm &lt; 0.254mm) Between Text "R7" (16.185mm,30.234mm) on Top Overlay And Track (13.939mm,29.874mm)(17.139mm,29.874mm) on Top Overlay Silk Text to Silk Clearance [0.197mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Daanh\OneDrive - Saxion\Documents\Saxion\Project Integration\Docs\6. Final Design\Altium\Smartwatch Power Board\PowerBoard_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=394.416mil|Location2.X=405.666mil|Location1.Y=552.378mil|Location2.Y=563.628mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Daanh\OneDrive - Saxion\Documents\Saxion\Project Integration\Docs\6. Final Design\Altium\Smartwatch Power Board\PowerBoard_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=394.416mil|Location2.X=405.666mil|Location1.Y=552.378mil|Location2.Y=563.628mil|Absolute=True">Silk To Silk Clearance Constraint: (0.227mm &lt; 0.254mm) Between Text "RST, BL" (8.362mm,14.537mm) on Top Overlay And Track (9.75mm,13.96mm)(15.65mm,13.96mm) on Top Overlay Silk Text to Silk Clearance [0.227mm]</acronym></a><br></td>
+</tr>
+</table></a><hr color="#EEEEEE"><a href="#top" style="font-size: 0.9em">Back to top</a><br><br></body>
+</html>

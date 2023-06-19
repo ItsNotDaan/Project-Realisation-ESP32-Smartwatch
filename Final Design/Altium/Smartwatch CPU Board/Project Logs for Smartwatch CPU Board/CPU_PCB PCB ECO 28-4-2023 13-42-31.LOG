@@ -1,0 +1,17 @@
+Change Component Designator: OldDesignator=C? NewDesignator=C17
+Change Component Designator: OldDesignator=P? NewDesignator=P2
+Change Component Designator: OldDesignator=R5 NewDesignator=R6
+Change Component Designator: OldDesignator=R6 NewDesignator=R7
+Change Component Designator: OldDesignator=R7 NewDesignator=R9
+Change Component Designator: OldDesignator=R8 NewDesignator=R10
+Change Component Designator: OldDesignator=R9 NewDesignator=R11
+Change Component Designator: OldDesignator=R? NewDesignator=R5
+Change Component Designator: OldDesignator=R? NewDesignator=R8
+Change Component Designator: OldDesignator=R? NewDesignator=R12
+Add Component: Footprint Not Found MHDR1X2
+Add Pin To Net: Unknown Pin: Pin NoBat1-1
+Add Pin To Net: Unknown Pin: Pin NoBat1-2
+Change Net Name : Old Net Name=NetR6_1 New Net Name=NetR7_1
+Add Class Member: Failed to add class member : Component NoBat1 VBUS
+Added Member To Class: ClassName=CPU_Schem Member=Component R10 10k
+Added Member To Class: ClassName=CPU_Schem Member=Component R11 10k

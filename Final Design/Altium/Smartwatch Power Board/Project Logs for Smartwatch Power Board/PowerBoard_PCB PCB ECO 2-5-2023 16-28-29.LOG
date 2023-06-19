@@ -1,0 +1,84 @@
+Removed Pin From Net: NetName=GND Pin=U?-1
+Removed Pin From Net: NetName=3.3V Pin=U?-2
+Change Component Designator: OldDesignator=D? NewDesignator=D1
+Change Component Designator: OldDesignator=D? NewDesignator=D2
+Change Component Designator: OldDesignator=D? NewDesignator=D3
+Change Component Designator: OldDesignator=U? NewDesignator=U1
+Add Component: Footprint Not Found PAD_SQ_2MM
+Add Component: Footprint Not Found CAP_1206
+Add Component: Footprint Not Found CAP_1206
+Add Component: Footprint Not Found CAP_1206
+Add Component: Footprint Not Found CAP_1206
+Added Component: Designator=P2(JST-S2B-PH-K-S_V)
+Add Component: Footprint Not Found RES_1206
+Add Component: Footprint Not Found RES_1206
+Add Component: Footprint Not Found RES_1206
+Add Component: Footprint Not Found RES_1206
+Add Component: Footprint Not Found RES_0402
+Add Component: Footprint Not Found RES_1206
+Add Component: Footprint Not Found RES_1206
+Added Component: Designator=U2(FP-SOT89-MFG)
+Add Component: Footprint Not Found PAD_SQ_2MM
+Add Component: Footprint Not Found PAD_SQ_2MM
+Add Pin To Net: Unknown Pin: Pin C1-1
+Add Pin To Net: Unknown Pin: Pin C1-2
+Add Pin To Net: Unknown Pin: Pin C2-1
+Add Pin To Net: Unknown Pin: Pin C2-2
+Add Pin To Net: Unknown Pin: Pin C3-1
+Add Pin To Net: Unknown Pin: Pin C3-2
+Add Pin To Net: Unknown Pin: Pin C4-1
+Add Pin To Net: Unknown Pin: Pin C4-2
+Added Pin To Net: NetName=IO4, BL(6) Pin=P1-1
+Added Pin To Net: NetName=IO16, RST(5) Pin=P1-2
+Added Pin To Net: NetName=IO17, D/MD(4) Pin=P1-3
+Added Pin To Net: NetName=IO5, CS(3) Pin=P1-4
+Added Pin To Net: NetName=CLK (2) Pin=P1-5
+Added Pin To Net: NetName=MOSI (1) Pin=P1-6
+Added Pin To Net: NetName=SDA Pin=P1-7
+Added Pin To Net: NetName=SCL Pin=P1-8
+Added Pin To Net: NetName=3.3V Pin=P1-9
+Added Pin To Net: NetName=GND Pin=P1-10
+Add Pin To Net: Unknown Pin: Pin P2-1
+Add Pin To Net: Unknown Pin: Pin P2-2
+Add Pin To Net: Unknown Pin: Pin R1-2
+Add Pin To Net: Unknown Pin: Pin R2-1
+Add Pin To Net: Unknown Pin: Pin R2-2
+Add Pin To Net: Unknown Pin: Pin R4-1
+Add Pin To Net: Unknown Pin: Pin R5-1
+Add Pin To Net: Unknown Pin: Pin R5-2
+Add Pin To Net: Unknown Pin: Pin R6-2
+Add Pin To Net: Unknown Pin: Pin R7-2
+Added Pin To Net: NetName=GND Pin=U1-2
+Add Pin To Net: Unknown Pin: Pin U2-1
+Add Pin To Net: Unknown Pin: Pin U2-2
+Add Pin To Net: Unknown Pin: Pin U2-3
+Add Pin To Net: Unknown Pin: Pin V+?-1
+Add Pin To Net: Unknown Pin: Pin V-?-1
+Added Net: Name=NetBat Mon Pin1_1
+Added Pin To Net: NetName=NetD1_C Pin=D1-C
+Added Net: Name=NetD1_C
+Added Pin To Net: NetName=NetD2_A Pin=D2-A
+Added Net: Name=NetD2_A
+Added Pin To Net: NetName=NetD3_A Pin=D3-A
+Added Net: Name=NetD3_A
+Added Pin To Net: NetName=NetR3_1 Pin=U1-1
+Added Net: Name=NetR3_1
+Add Class Member: Failed to add class member : Component Bat Mon Pin1 Pad
+Add Class Member: Failed to add class member : Component C1 4u7
+Add Class Member: Failed to add class member : Component C2 4u7
+Add Class Member: Failed to add class member : Component C3 10u
+Add Class Member: Failed to add class member : Component C4 22u
+Added Member To Class: ClassName=PowerBoard_Schem Member=Component D2 LED VBUS
+Added Member To Class: ClassName=PowerBoard_Schem Member=Component D3 LED 3.3V
+Added Member To Class: ClassName=PowerBoard_Schem Member=Component P1 61301021121
+Add Class Member: Failed to add class member : Component P2 Bat
+Add Class Member: Failed to add class member : Component R1 10k
+Add Class Member: Failed to add class member : Component R2 5k2
+Add Class Member: Failed to add class member : Component R3 470
+Add Class Member: Failed to add class member : Component R4 82k
+Add Class Member: Failed to add class member : Component R5 VBUS
+Add Class Member: Failed to add class member : Component R6 10k
+Add Class Member: Failed to add class member : Component R7 10k
+Add Class Member: Failed to add class member : Component U2 AZ1117CR-3.3TRG1
+Add Class Member: Failed to add class member : Component V+? Pad
+Add Class Member: Failed to add class member : Component V-? Pad

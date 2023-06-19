@@ -1,0 +1,12 @@
+Add Component: Footprint Not Found MHDR1X2
+Added Component: Designator=R?(RES_1206)
+Added Component: Designator=R?(RES_1206)
+Add Pin To Net: Unknown Pin: Pin NoBat1-1
+Add Pin To Net: Unknown Pin: Pin NoBat1-2
+Added Pin To Net: NetName=GND Pin=R?-1
+Added Pin To Net: NetName=GPIO2 Pin=R?-1
+Added Pin To Net: NetName=GPIO2 Pin=R?-2
+Added Pin To Net: NetName=VBAT Pin=R?-2
+Add Class Member: Failed to add class member : Component NoBat1 VBUS
+Added Member To Class: ClassName=CPU_Schem Member=Component R? 10k
+Added Member To Class: ClassName=CPU_Schem Member=Component R? 10k

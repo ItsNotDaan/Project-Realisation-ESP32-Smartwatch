@@ -1,0 +1,63 @@
+Added Component: Designator=Bat Mon Pin1(PAD_SQ_2MM)
+Added Component: Designator=C1(CAP_1206)
+Added Component: Designator=C2(CAP_1206)
+Added Component: Designator=C3(CAP_1206)
+Added Component: Designator=C4(CAP_1206)
+Added Component: Designator=P2(JST-S2B-PH-K-S_V)
+Added Component: Designator=R1(RES_1206)
+Added Component: Designator=R2(RES_1206)
+Added Component: Designator=R3(RES_1206)
+Added Component: Designator=R4(RES_1206)
+Added Component: Designator=R5(RES_0402)
+Added Component: Designator=R6(RES_1206)
+Added Component: Designator=R7(RES_1206)
+Added Component: Designator=U2(FP-SOT89-MFG)
+Added Component: Designator=V+?(PAD_SQ_2MM)
+Added Component: Designator=V-?(PAD_SQ_2MM)
+Added Pin To Net: NetName=NetBat Mon Pin1_1 Pin=Bat Mon Pin1-1
+Added Pin To Net: NetName=GND Pin=C1-1
+Added Pin To Net: NetName=VBAT Pin=C1-2
+Added Pin To Net: NetName=GND Pin=C2-1
+Added Pin To Net: NetName=VBUS Pin=C2-2
+Added Pin To Net: NetName=GND Pin=C3-1
+Added Pin To Net: NetName=VBAT Pin=C3-2
+Added Pin To Net: NetName=GND Pin=C4-1
+Added Pin To Net: NetName=3.3V Pin=C4-2
+Add Pin To Net: Unknown Pin: Pin P2-1
+Add Pin To Net: Unknown Pin: Pin P2-2
+Added Pin To Net: NetName=NetBat Mon Pin1_1 Pin=R1-1
+Added Pin To Net: NetName=VBAT Pin=R1-2
+Added Pin To Net: NetName=GND Pin=R2-1
+Added Pin To Net: NetName=Bat_Prog Pin=R2-2
+Added Pin To Net: NetName=NetR3_1 Pin=R3-1
+Added Pin To Net: NetName=NetD1_C Pin=R3-2
+Added Pin To Net: NetName=GND Pin=R4-1
+Added Pin To Net: NetName=NetBat Mon Pin1_1 Pin=R4-2
+Added Pin To Net: NetName=VBAT Pin=R5-1
+Added Pin To Net: NetName=VBUS Pin=R5-2
+Added Pin To Net: NetName=NetD2_A Pin=R6-1
+Added Pin To Net: NetName=VBAT Pin=R6-2
+Added Pin To Net: NetName=NetD3_A Pin=R7-1
+Added Pin To Net: NetName=3.3V Pin=R7-2
+Add Pin To Net: Unknown Pin: Pin U2-1
+Add Pin To Net: Unknown Pin: Pin U2-2
+Add Pin To Net: Unknown Pin: Pin U2-3
+Added Pin To Net: NetName=VBAT Pin=V+?-1
+Added Pin To Net: NetName=GND Pin=V-?-1
+Added Member To Class: ClassName=PowerBoard_Schem Member=Component Bat Mon Pin1 Pad
+Added Member To Class: ClassName=PowerBoard_Schem Member=Component C1 4u7
+Added Member To Class: ClassName=PowerBoard_Schem Member=Component C2 4u7
+Added Member To Class: ClassName=PowerBoard_Schem Member=Component C3 10u
+Added Member To Class: ClassName=PowerBoard_Schem Member=Component C4 22u
+Added Member To Class: ClassName=PowerBoard_Schem Member=Component D1 LED BAT
+Add Class Member: Failed to add class member : Component P2 Bat
+Added Member To Class: ClassName=PowerBoard_Schem Member=Component R1 10k
+Added Member To Class: ClassName=PowerBoard_Schem Member=Component R2 5k2
+Added Member To Class: ClassName=PowerBoard_Schem Member=Component R3 470
+Added Member To Class: ClassName=PowerBoard_Schem Member=Component R4 82k
+Added Member To Class: ClassName=PowerBoard_Schem Member=Component R5 VBUS
+Added Member To Class: ClassName=PowerBoard_Schem Member=Component R6 10k
+Added Member To Class: ClassName=PowerBoard_Schem Member=Component R7 10k
+Add Class Member: Failed to add class member : Component U2 AZ1117CR-3.3TRG1
+Added Member To Class: ClassName=PowerBoard_Schem Member=Component V+? Pad
+Added Member To Class: ClassName=PowerBoard_Schem Member=Component V-? Pad

@@ -1,0 +1,211 @@
+Board Information Report
+Filename     : C:\Users\Daanh\OneDrive - Saxion\Documents\Saxion\Project Integration\Docs\6. Final Design\Altium\Smartwatch CPU Board\CPU_PCB.PcbDoc
+Date         : 16-5-2023
+Time         : 14:44:12
+Time Elapsed : 00:00:01
+
+General
+    Board Size, 42mmx42mm
+    Components on board, 30
+count : 2
+
+Routing Information
+    Routing completion, 100,00%
+    Connections, 92
+    Connections routed, 92
+    Connections remaining, 0
+count : 4
+
+Layer, Arcs, Pads, Vias, Tracks, Texts, Fills, Regions, ComponentBodies
+    Top Layer, 1, 79, 0, 226, 0, 0, 13, 0
+    Bottom Layer, 0, 60, 0, 172, 0, 0, 9, 0
+    Mechanical 1, 0, 0, 0, 0, 0, 0, 0, 21
+    Top 3D Body, 0, 0, 0, 4, 0, 0, 0, 1
+    Top Courtyard, 0, 0, 0, 4, 0, 0, 0, 0
+    Top Assembly, 0, 0, 0, 4, 1, 0, 0, 0
+    Mechanical 13, 3, 0, 0, 100, 17, 0, 0, 7
+    Mechanical 15, 2, 0, 0, 52, 0, 0, 0, 0
+    Top Component Center, 0, 0, 0, 2, 0, 0, 0, 0
+    Bottom Assembly, 0, 0, 0, 0, 0, 0, 0, 0
+    Bottom Courtyard, 0, 0, 0, 0, 0, 0, 0, 0
+    Bottom 3D Body, 0, 0, 0, 0, 0, 0, 0, 0
+    Bottom Component Center, 0, 0, 0, 0, 0, 0, 0, 0
+    Multi-Layer, 0, 30, 39, 0, 0, 0, 1, 0
+    Top Paste, 0, 0, 0, 0, 0, 4, 0, 0
+    Top Overlay, 6, 0, 0, 42, 59, 0, 0, 0
+    Top Solder, 0, 0, 0, 0, 0, 0, 0, 0
+    Bottom Solder, 0, 0, 0, 0, 0, 0, 0, 0
+    Bottom Overlay, 1, 0, 0, 16, 17, 0, 0, 0
+    Bottom Paste, 0, 0, 0, 0, 0, 0, 0, 0
+    Drill Guide, 0, 0, 0, 0, 0, 0, 0, 0
+    Keep-Out Layer, 0, 0, 0, 0, 0, 0, 1, 0
+    Drill Drawing, 0, 0, 0, 0, 0, 0, 0, 0
+count : 23
+
+Drill Pairs, Vias
+    Top Layer - Bottom Layer, 39
+count : 1
+
+Layer, Sq.In., Sq.MM., Percent of layer
+    Top Layer, 1,542, 994,711, 72%
+    Bottom Layer, 1,6, 1032,06, 74%
+count : 2
+
+Non-Plated Hole Size, Pads, Vias
+    0mm, 8, 0
+    0.65mm, 2, 0
+count : 2
+
+Plated Hole Size, Pads, Vias
+    0mm, 131, 0
+    0.2mm, 12, 0
+    0.4mm, 0, 30
+    0.6mm, 0, 8
+    1mm, 2, 0
+    1.1mm, 10, 1
+count : 6
+
+Non-Plated Slot Size / Length, Pads
+count : 0
+
+Plated Slot Size / Length, Pads
+    23.622mil / 55.118mil, 2
+    23.622mil / 66.929mil, 2
+count : 2
+
+Non-Plated Square Hole Size, Pads
+count : 0
+
+Plated Square Hole Size, Pads
+count : 0
+
+Top Layer Annular Ring Size, Count
+    0mm, 2
+    0.1mm, 12
+    0.2mm, 30
+    0.2mm, 8
+    0.4mm, 1
+    0.5mm, 2
+    0.55mm, 10
+    1.2mm, 2
+    1.5mm, 2
+count : 9
+
+Mid Layer Annular Ring Size, Count
+    0mm, 2
+    0.1mm, 12
+    0.2mm, 30
+    0.2mm, 8
+    0.4mm, 1
+    0.5mm, 2
+    0.55mm, 10
+    1.2mm, 2
+    1.5mm, 2
+count : 9
+
+Bottom Layer Annular Ring Size, Count
+    0mm, 2
+    0.1mm, 12
+    0.2mm, 30
+    0.2mm, 8
+    0.4mm, 1
+    0.5mm, 2
+    0.55mm, 10
+    1.2mm, 2
+    1.5mm, 2
+count : 9
+
+Pad Solder Mask, Count
+    0mm, 37
+    0.05mm, 14
+    0.1016mm, 118
+count : 3
+
+Pad Paste Mask, Count
+    -1000mm, 1
+    0mm, 168
+count : 2
+
+Pad Pwr/Gnd Expansion, Count
+    0.508mm, 169
+count : 1
+
+Pad Relief Conductor Width, Count
+    0.254mm, 169
+count : 1
+
+Pad Relief Air Gap, Count
+    0.254mm, 169
+count : 1
+
+Pad Relief Entries, Count
+    4, 169
+count : 1
+
+Via Solder Mask, Count
+    0.1016mm, 39
+count : 1
+
+Via Pwr/Gnd Expansion, Count
+    0.508mm, 39
+count : 1
+
+Track Width, Count
+    0.05mm, 34
+    0.1mm, 28
+    0.127mm, 52
+    0.175mm, 64
+    0.2mm, 46
+    0.23mm, 6
+    0.254mm, 233
+    0.3mm, 57
+    0.5mm, 102
+count : 9
+
+Arc Line Width, Count
+    0.05mm, 2
+    0.1mm, 3
+    0.2mm, 4
+    0.25mm, 3
+    0.254mm, 1
+count : 5
+
+Arc Radius, Count
+    0.05mm, 1
+    0.1mm, 2
+    0.125mm, 3
+    1.27mm, 4
+    1.37mm, 2
+    21mm, 1
+count : 6
+
+Arc Degrees, Count
+    360, 13
+count : 1
+
+Text Height, Count
+    0.6mm, 5
+    0.8mm, 7
+    1mm, 46
+    1.016mm, 4
+    1.524mm, 31
+    1.778mm, 1
+count : 6
+
+Text Width, Count
+    0.1mm, 6
+    0.15mm, 20
+    0.1524mm, 4
+    0.16mm, 1
+    0.18mm, 2
+    0.2mm, 29
+    0.254mm, 32
+count : 7
+
+Net Track Width, Count
+    0.254mm, 38
+count : 1
+
+Net Via Size, Count
+    1mm, 38
+count : 1

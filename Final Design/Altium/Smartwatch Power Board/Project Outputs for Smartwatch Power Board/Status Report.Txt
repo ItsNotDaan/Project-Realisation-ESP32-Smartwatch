@@ -1,0 +1,12 @@
+Output: NC Drill Files
+Type  : NC Drill
+From  : Project [Smartwatch Power Board.PrjPcb]
+   Generated File[PowerBoard_PCB.TXT]
+   Generated File[PowerBoard_PCB.LDP]
+   Generated File[PowerBoard_PCB.DRR]
+
+
+Files Generated   : 3
+Documents Printed : 0
+
+Finished Output Generation At 22:53:22 On 16-5-2023

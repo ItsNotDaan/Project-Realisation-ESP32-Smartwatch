@@ -1,0 +1,50 @@
+Removed Pin From Net: NetName=3.3V Pin=3.3V-1
+Removed Pin From Net: NetName=GND Pin=C1-1
+Removed Pin From Net: NetName=GND Pin=C2-1
+Removed Pin From Net: NetName=VBUS Pin=C2-2
+Removed Pin From Net: NetName=GND Pin=C5-1
+Removed Pin From Net: NetName=GND Pin=C6-1
+Removed Pin From Net: NetName=3.3V Pin=C6-2
+Removed Pin From Net: NetName=VBUS Pin=D2-A
+Removed Pin From Net: NetName=GND Pin=D3-C
+Removed Pin From Net: NetName=GND Pin=D4-C
+Removed Pin From Net: NetName=GND Pin=P2-1
+Removed Pin From Net: NetName=IO2 Pin=R5-1
+Removed Pin From Net: NetName=GND Pin=R6-1
+Removed Pin From Net: NetName=GND Pin=R8-1
+Removed Pin From Net: NetName=IO2 Pin=R8-2
+Removed Pin From Net: NetName=3.3V Pin=R11-2
+Removed Pin From Net: NetName=VBUS Pin=R?-2
+Removed Pin From Net: NetName=GND Pin=U2-2
+Removed Pin From Net: NetName=VBUS Pin=U2-4
+Removed Pin From Net: NetName=GND Pin=U3-1
+Removed Pin From Net: NetName=3.3V Pin=U3-2
+Removed Pin From Net: NetName=GND Pin=V--1
+Removed Pin From Net: NetName=VBUS Pin=VBUS-1
+Removed Member From Class: ClassName=CPUWroom_Schem Member=3.3V
+Removed Member From Class: ClassName=CPUWroom_Schem Member=C1
+Removed Member From Class: ClassName=CPUWroom_Schem Member=C2
+Removed Member From Class: ClassName=CPUWroom_Schem Member=C5
+Removed Member From Class: ClassName=CPUWroom_Schem Member=C6
+Removed Member From Class: ClassName=CPUWroom_Schem Member=D2
+Removed Member From Class: ClassName=CPUWroom_Schem Member=D3
+Removed Member From Class: ClassName=CPUWroom_Schem Member=D4
+Removed Member From Class: ClassName=CPUWroom_Schem Member=P2
+Removed Member From Class: ClassName=CPUWroom_Schem Member=R5
+Removed Member From Class: ClassName=CPUWroom_Schem Member=R6
+Removed Member From Class: ClassName=CPUWroom_Schem Member=R7
+Removed Member From Class: ClassName=CPUWroom_Schem Member=R8
+Removed Member From Class: ClassName=CPUWroom_Schem Member=R10
+Removed Member From Class: ClassName=CPUWroom_Schem Member=R11
+Removed Member From Class: ClassName=CPUWroom_Schem Member=R?
+Removed Member From Class: ClassName=CPUWroom_Schem Member=U2
+Removed Member From Class: ClassName=CPUWroom_Schem Member=U3
+Removed Member From Class: ClassName=CPUWroom_Schem Member=V+
+Removed Member From Class: ClassName=CPUWroom_Schem Member=V-
+Removed Member From Class: ClassName=CPUWroom_Schem Member=VBAT
+Removed Member From Class: ClassName=CPUWroom_Schem Member=VBUS
+Added Component: Designator=Bat Mon Pin(PAD_SQ_2MM)
+Added Pin To Net: NetName=NetBat Mon Pin_1 Pin=Bat Mon Pin-1
+Added Pin To Net: NetName=NetBat Mon Pin_1 Pin=U1-10
+Added Net: Name=NetBat Mon Pin_1
+Added Member To Class: ClassName=CPUWroom_Schem Member=Component Bat Mon Pin Pad

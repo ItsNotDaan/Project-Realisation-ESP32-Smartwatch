@@ -1,0 +1,4 @@
+Added Component: Designator=R?(RES_0402)
+Added Pin To Net: NetName=VBAT Pin=R?-1
+Added Pin To Net: NetName=VBUS Pin=R?-2
+Added Member To Class: ClassName=CPUWroom_Schem Member=Component R? VBUS

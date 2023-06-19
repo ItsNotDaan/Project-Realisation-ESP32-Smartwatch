@@ -1,0 +1,50 @@
+Removed Pin From Net: NetName=GND Pin=I2C-1
+Removed Pin From Net: NetName=3.3V Pin=I2C-2
+Removed Pin From Net: NetName=SCL Pin=I2C-3
+Removed Pin From Net: NetName=GPIO9/SDA Pin=I2C-4
+Removed Pin From Net: NetName=GND Pin=OLED-1
+Removed Pin From Net: NetName=3.3V Pin=OLED-2
+Removed Pin From Net: NetName=SCL Pin=OLED-3
+Removed Pin From Net: NetName=GPIO9/SDA Pin=OLED-4
+Removed Member From Class: ClassName=CPU_Schem Member=I2C
+Removed Member From Class: ClassName=CPU_Schem Member=OLED
+Add Component: Footprint Not Found MHDR1X2
+Added Component: Designator=P?(61300821121)
+Add component (AddParameter): Name = "Contact Resistance"; Value = "20mOhm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet URL"; Value = "https://katalog.we-online.de/em/datasheet/6130xx21121.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Gender"; Value = "Male"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Wurth Elektronik"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer URL"; Value = "http://www.we-online.de"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Technology"; Value = "THT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Operating Temperature"; Value = "-40to105degC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Orientation"; Value = "Vertical"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package Reference"; Value = "61300821121"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packaging"; Value = "Bag"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "61300821121"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pin Number"; Value = "8"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pitch"; Value = "2.54mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Publisher"; Value = "WurthElektronik"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Rated Current"; Value = "3A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Row Number"; Value = "Dual"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Withstanding Voltage"; Value = "500VAC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Working Voltage"; Value = "250VAC"; VariantName = "[No Variations]"
+Add Pin To Net: Unknown Pin: Pin NoBat1-1
+Add Pin To Net: Unknown Pin: Pin NoBat1-2
+Added Pin To Net: NetName=GPIO9/SDA Pin=P?-2
+Added Pin To Net: NetName=SCL Pin=P?-4
+Added Pin To Net: NetName=3.3V Pin=P?-6
+Added Pin To Net: NetName=GND Pin=P?-8
+Added Pin To Net: NetName=CS Pin=IC1-8
+Added Pin To Net: NetName=CS Pin=P?-7
+Added Net: Name=CS
+Added Pin To Net: NetName=MISO Pin=IC1-4
+Added Pin To Net: NetName=MISO Pin=P?-1
+Added Net: Name=MISO
+Added Pin To Net: NetName=MOSI Pin=IC1-6
+Added Pin To Net: NetName=MOSI Pin=P?-5
+Added Net: Name=MOSI
+Added Pin To Net: NetName=SCK Pin=IC1-5
+Added Pin To Net: NetName=SCK Pin=P?-3
+Added Net: Name=SCK
+Add Class Member: Failed to add class member : Component NoBat1 VBUS
+Added Member To Class: ClassName=CPU_Schem Member=Component P? 61300821121

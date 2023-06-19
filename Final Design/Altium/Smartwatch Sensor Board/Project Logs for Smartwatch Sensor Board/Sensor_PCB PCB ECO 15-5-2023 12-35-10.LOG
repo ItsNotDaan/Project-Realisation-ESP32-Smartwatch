@@ -1,0 +1,15 @@
+Added Component: Designator=Jump(RES_0402)
+Added Component: Designator=R?(RES_1206)
+Added Pin To Net: NetName=3.3V Pin=Jump-2
+Change Net Name : Old Net Name=NetAccmtr1_7 New Net Name=NetAccmtr_7
+Change Net Name : Old Net Name=NetAccmtr1_8 New Net Name=NetAccmtr_8
+Change Net Name : Old Net Name=NetGyro1_4 New Net Name=NetGyro_4
+Change Net Name : Old Net Name=NetGyro1_5 New Net Name=NetGyro_5
+Added Pin To Net: NetName=NetHeatbeat1_13 Pin=Heatbeat1-13
+Added Pin To Net: NetName=NetHeatbeat1_13 Pin=R?-2
+Added Net: Name=NetHeatbeat1_13
+Added Pin To Net: NetName=NetJump_1 Pin=Jump-1
+Added Pin To Net: NetName=NetJump_1 Pin=R?-1
+Added Net: Name=NetJump_1
+Added Member To Class: ClassName=Sensor_Schem Member=Component Jump R0402
+Added Member To Class: ClassName=Sensor_Schem Member=Component R? 4k7

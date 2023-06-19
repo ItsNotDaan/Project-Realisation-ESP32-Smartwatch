@@ -1,0 +1,21 @@
+Removed Pin From Net: NetName=GPIO3, MOSI(1) Pin=P2-1
+Removed Pin From Net: NetName=GPIO4,CLK(2) Pin=P2-2
+Removed Pin From Net: NetName=GPIO5, CS(3) Pin=P2-3
+Removed Pin From Net: NetName=GPIO6, D/MD(4) Pin=P2-4
+Removed Pin From Net: NetName=GPIO7, RST(5) Pin=P2-5
+Removed Pin From Net: NetName=GPIO8, BL(6) Pin=P2-6
+Add Component: Footprint Not Found MHDR1X2
+Add Pin To Net: Unknown Pin: Pin NoBat1-1
+Add Pin To Net: Unknown Pin: Pin NoBat1-2
+Added Pin To Net: NetName=GPIO8, BL(6) Pin=P2-1
+Added Pin To Net: NetName=GPIO7, RST(5) Pin=P2-2
+Added Pin To Net: NetName=GPIO6, D/MD(4) Pin=P2-3
+Added Pin To Net: NetName=GPIO5, CS(3) Pin=P2-4
+Added Pin To Net: NetName=GPIO4,CLK(2) Pin=P2-5
+Added Pin To Net: NetName=GPIO3, MOSI(1) Pin=P2-6
+Add Class Member: Failed to add class member : Component NoBat1 VBUS
+Added Member To Class: ClassName=CPU_Schem Member=Component R5 10k
+Added Member To Class: ClassName=CPU_Schem Member=Component R6 22k
+Added Member To Class: ClassName=CPU_Schem Member=Component R8 82k
+Added Member To Class: ClassName=CPU_Schem Member=Component R9 10k
+Added Member To Class: ClassName=CPU_Schem Member=Component R12 10k

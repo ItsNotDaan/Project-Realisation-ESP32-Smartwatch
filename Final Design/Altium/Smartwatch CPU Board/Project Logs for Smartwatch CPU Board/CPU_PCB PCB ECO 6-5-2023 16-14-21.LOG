@@ -1,0 +1,6 @@
+Removed Pin From Net: NetName=VBUS Pin=R17-1
+Removed Pin From Net: NetName=VBUS Pin=R18-1
+Change Component Comment : Designator=R17 Old Comment=10k New Comment=3k3
+Change Component Comment : Designator=R18 Old Comment=10k New Comment=3k3
+Added Pin To Net: NetName=3.3V Pin=R17-1
+Added Pin To Net: NetName=3.3V Pin=R18-1

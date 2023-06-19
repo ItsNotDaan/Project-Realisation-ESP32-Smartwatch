@@ -1,0 +1,5 @@
+Removed Pin From Net: NetName=GND Pin=External Prog1-1
+Removed Pin From Net: NetName=3.3V Pin=External Prog1-3
+Removed Pin From Net: NetName=RX_D Pin=External Prog1-4
+Removed Pin From Net: NetName=TX_D Pin=External Prog1-5
+Removed Member From Class: ClassName=CPU_Programmer_Schem Member=External Prog1

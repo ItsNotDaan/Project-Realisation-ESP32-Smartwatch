@@ -1,0 +1,75 @@
+Add Component: Footprint Not Found PAD_SQ_2MM
+Add Component: Footprint Not Found CAP_1206
+Add Component: Footprint Not Found CAP_1206
+Add Component: Footprint Not Found CAP_1206
+Add Component: Footprint Not Found CAP_1206
+Added Component: Designator=P?(JST-S2B-PH-K-S_V)
+Added Component: Designator=P?(61301021121)
+Add Component: Footprint Not Found RES_1206
+Add Component: Footprint Not Found RES_0402
+Add Component: Footprint Not Found RES_1206
+Add Component: Footprint Not Found RES_1206
+Add Component: Footprint Not Found RES_1206
+Add Component: Footprint Not Found RES_1206
+Add Component: Footprint Not Found RES_1206
+Added Component: Designator=U?(FP-SOT89-MFG)
+Add Component: Footprint Not Found PAD_SQ_2MM
+Add Component: Footprint Not Found PAD_SQ_2MM
+Add Pin To Net: Unknown Pin: Pin Bat Mon Pin?-1
+Add Pin To Net: Unknown Pin: Pin C?-1
+Add Pin To Net: Unknown Pin: Pin C?-1
+Add Pin To Net: Unknown Pin: Pin C?-1
+Add Pin To Net: Unknown Pin: Pin C?-1
+Add Pin To Net: Unknown Pin: Pin C?-2
+Add Pin To Net: Unknown Pin: Pin C?-2
+Add Pin To Net: Unknown Pin: Pin C?-2
+Add Pin To Net: Unknown Pin: Pin C?-2
+Add Pin To Net: Unknown Pin: Pin P?-1
+Add Pin To Net: Unknown Pin: Pin P?-1
+Add Pin To Net: Unknown Pin: Pin P?-2
+Add Pin To Net: Unknown Pin: Pin P?-2
+Add Pin To Net: Unknown Pin: Pin P?-3
+Add Pin To Net: Unknown Pin: Pin P?-4
+Add Pin To Net: Unknown Pin: Pin P?-5
+Add Pin To Net: Unknown Pin: Pin P?-6
+Add Pin To Net: Unknown Pin: Pin P?-7
+Add Pin To Net: Unknown Pin: Pin P?-8
+Add Pin To Net: Unknown Pin: Pin P?-9
+Add Pin To Net: Unknown Pin: Pin P?-10
+Add Pin To Net: Unknown Pin: Pin R?-1
+Add Pin To Net: Unknown Pin: Pin R?-1
+Add Pin To Net: Unknown Pin: Pin R?-1
+Add Pin To Net: Unknown Pin: Pin R?-1
+Add Pin To Net: Unknown Pin: Pin R?-1
+Add Pin To Net: Unknown Pin: Pin R?-1
+Add Pin To Net: Unknown Pin: Pin R?-2
+Add Pin To Net: Unknown Pin: Pin R?-2
+Add Pin To Net: Unknown Pin: Pin R?-2
+Add Pin To Net: Unknown Pin: Pin R?-2
+Add Pin To Net: Unknown Pin: Pin R?-2
+Add Pin To Net: Unknown Pin: Pin R?-2
+Add Pin To Net: Unknown Pin: Pin R?-2
+Added Pin To Net: NetName=GND Pin=U?-1
+Added Pin To Net: NetName=3.3V Pin=U?-2
+Add Pin To Net: Unknown Pin: Pin V+?-1
+Add Pin To Net: Unknown Pin: Pin V-?-1
+Add Net: Net with name "NetD?_A" already exists
+Add Class Member: Failed to add class member : Component Bat Mon Pin? Pad
+Add Class Member: Failed to add class member : Component C? 4u7
+Add Class Member: Failed to add class member : Component C? 22u
+Add Class Member: Failed to add class member : Component C? 4u7
+Add Class Member: Failed to add class member : Component C? 10u
+Added Member To Class: ClassName=PowerBoard_Schem Member=Component D? LED BAT
+Added Member To Class: ClassName=PowerBoard_Schem Member=Component D? LED VBUS
+Add Class Member: Failed to add class member : Component P? Bat
+Add Class Member: Failed to add class member : Component P? 61301021121
+Add Class Member: Failed to add class member : Component R? 10k
+Add Class Member: Failed to add class member : Component R? VBUS
+Add Class Member: Failed to add class member : Component R? 5k2
+Add Class Member: Failed to add class member : Component R? 10k
+Add Class Member: Failed to add class member : Component R? 10k
+Add Class Member: Failed to add class member : Component R? 470
+Add Class Member: Failed to add class member : Component R? 82k
+Added Member To Class: ClassName=PowerBoard_Schem Member=Component U? MCP73831T-3ACI/OT
+Add Class Member: Failed to add class member : Component V+? Pad
+Add Class Member: Failed to add class member : Component V-? Pad

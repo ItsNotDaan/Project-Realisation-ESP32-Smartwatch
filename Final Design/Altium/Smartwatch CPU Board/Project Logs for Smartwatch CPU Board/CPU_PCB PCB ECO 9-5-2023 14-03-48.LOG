@@ -1,0 +1,4 @@
+Added Component: Designator=R19(RES_1206)
+Added Pin To Net: NetName=3.3V Pin=R19-1
+Added Pin To Net: NetName=IO0 Pin=R19-2
+Added Member To Class: ClassName=CPUWroom_Schem Member=Component R19 10k

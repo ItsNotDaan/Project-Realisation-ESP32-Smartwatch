@@ -1,0 +1,116 @@
+Removed Pin From Net: NetName=SCL Pin=IC1-14
+Removed Pin From Net: NetName=GPIO9/SDA Pin=P?-2
+Removed Pin From Net: NetName=SCL Pin=P?-4
+Removed Pin From Net: NetName=3.3V Pin=P?-6
+Removed Pin From Net: NetName=GND Pin=P?-8
+Removed Pin From Net: NetName=GPIO9/SDA Pin=R1-2
+Removed Pin From Net: NetName=GPIO9/SDA Pin=Sw-Boot1-1
+Removed Pin From Net: NetName=GPIO9/SDA Pin=Sw-Boot1-2
+Removed Pin From Net: NetName=GND Pin=Sw-Boot1-3
+Removed Pin From Net: NetName=GND Pin=Sw-Boot1-4
+Removed Member From Class: ClassName=CPU_Schem Member=Sw-Boot1
+Change Component Footprint: Designator=P? Old Footprint=61300821121 New Footprint=61301021121
+Change Component Comment : Designator=P? Old Comment=61300821121 New Comment=61301021121
+Change Managed Component Library Link : Designator=P? Old VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 New VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 Old ItemGUID=63D4D076-E443-4D96-A38E-5A86A16E471F New ItemGUID=34854AF4-9525-4BE3-BBBA-FD2776EEB7E5 Old RevisionGUID=767E51EA-14FE-4C49-9032-2EEB9DB92DDF New RevisionGUID=3CD7A349-B95C-459D-B7F7-6533AC4279CE
+Change component parameters: Designator = "P?" ("P?"); Footprint = "61300821121"; UniqueID = "\ESFELFOX" ("\ESFELFOX")
+Change component parameters (AddParameter): Name = "Contact Resistance"; Value = "20mOhm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Datasheet URL"; Value = "https://katalog.we-online.de/em/datasheet/6130xx21121.pdf"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Gender"; Value = "Male"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "Wurth Elektronik"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer URL"; Value = "http://www.we-online.de"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mounting Technology"; Value = "THT"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Operating Temperature"; Value = "-40to105degC"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Orientation"; Value = "Vertical"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package Reference"; Value = "61301021121"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Packaging"; Value = "Bag"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Part Number"; Value = "61301021121"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Pin Number"; Value = "10"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Pitch"; Value = "2.54mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Publisher"; Value = "WurthElektronik"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Rated Current"; Value = "3A"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Row Number"; Value = "Dual"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Withstanding Voltage"; Value = "500VAC"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Working Voltage"; Value = "250VAC"; VariantName = "[No Variations]"
+Added Component: Designator=C?(CAP_1206)
+Add Component: Footprint Not Found MHDR1X2
+Added Component: Designator=R?(RES_1206)
+Added Component: Designator=SW-Boot(434331045822)
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Manufacturer URL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.we-online.com"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "http://katalog.we-online.de/em/datasheet/434331045822.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Wuerth Elektronik"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "NoPins"; Value = "04"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageReference"; Value = "434331045822"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartNumber"; Value = "434331045822"; VariantName = "[No Variations]"
+Added Component: Designator=SW-EN(434331045822)
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Manufacturer URL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.we-online.com"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "http://katalog.we-online.de/em/datasheet/434331045822.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Wuerth Elektronik"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "NoPins"; Value = "04"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageReference"; Value = "434331045822"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartNumber"; Value = "434331045822"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GND Pin=C1-1
+Added Pin To Net: NetName=GND Pin=C2-1
+Added Pin To Net: NetName=GND Pin=C3-1
+Added Pin To Net: NetName=GND Pin=C4-1
+Added Pin To Net: NetName=GND Pin=C?-1
+Added Pin To Net: NetName=EN Pin=C?-2
+Added Pin To Net: NetName=SCL Pin=IC1-5
+Added Pin To Net: NetName=3.3V Pin=IC1-11
+Added Pin To Net: NetName=3.3V Pin=IC1-17
+Added Pin To Net: NetName=3.3V Pin=IC1-31
+Added Pin To Net: NetName=3.3V Pin=IC1-32
+Add Pin To Net: Unknown Pin: Pin NoBat1-1
+Add Pin To Net: Unknown Pin: Pin NoBat1-2
+Added Pin To Net: NetName=SCL Pin=P?-8
+Added Pin To Net: NetName=3.3V Pin=P?-9
+Added Pin To Net: NetName=GND Pin=P?-10
+Added Pin To Net: NetName=3.3V Pin=R?-1
+Added Pin To Net: NetName=EN Pin=R?-2
+Added Pin To Net: NetName=GPIO9/SDA Pin=SW-Boot-1
+Added Pin To Net: NetName=GPIO9/SDA Pin=SW-Boot-2
+Added Pin To Net: NetName=GND Pin=SW-Boot-3
+Added Pin To Net: NetName=GND Pin=SW-Boot-4
+Added Pin To Net: NetName=EN Pin=SW-EN-1
+Added Pin To Net: NetName=EN Pin=SW-EN-2
+Added Pin To Net: NetName=GND Pin=SW-EN-3
+Added Pin To Net: NetName=GND Pin=SW-EN-4
+Change Net Name : Old Net Name=GPIO9/SDA New Net Name=GPIO9/BOOT
+Added Pin To Net: NetName=GPIO2 Pin=IC1-6
+Added Net: Name=GPIO2
+Added Pin To Net: NetName=GPIO3, MOSI(1) Pin=IC1-8
+Added Pin To Net: NetName=GPIO3, MOSI(1) Pin=P?-1
+Added Net: Name=GPIO3, MOSI(1)
+Added Pin To Net: NetName=GPIO4,CLK(2) Pin=IC1-9
+Added Pin To Net: NetName=GPIO4,CLK(2) Pin=P?-2
+Added Net: Name=GPIO4,CLK(2)
+Added Pin To Net: NetName=GPIO5, CS(3) Pin=IC1-10
+Added Pin To Net: NetName=GPIO5, CS(3) Pin=P?-3
+Added Net: Name=GPIO5, CS(3)
+Added Pin To Net: NetName=GPIO6, D/MD(4) Pin=IC1-12
+Added Pin To Net: NetName=GPIO6, D/MD(4) Pin=P?-4
+Added Net: Name=GPIO6, D/MD(4)
+Added Pin To Net: NetName=GPIO7, RST(5) Pin=IC1-13
+Added Pin To Net: NetName=GPIO7, RST(5) Pin=P?-5
+Added Net: Name=GPIO7, RST(5)
+Added Pin To Net: NetName=GPIO8, BL(6) Pin=IC1-14
+Added Pin To Net: NetName=GPIO8, BL(6) Pin=P?-6
+Added Net: Name=GPIO8, BL(6)
+Added Pin To Net: NetName=GPIO10 Pin=IC1-16
+Added Net: Name=GPIO10
+Added Pin To Net: NetName=GPIO20 Pin=IC1-27
+Added Net: Name=GPIO20
+Added Pin To Net: NetName=GPIO21 Pin=IC1-28
+Added Net: Name=GPIO21
+Added Pin To Net: NetName=SDA Pin=IC1-4
+Added Pin To Net: NetName=SDA Pin=P?-7
+Added Pin To Net: NetName=SDA Pin=R1-2
+Added Net: Name=SDA
+Added Member To Class: ClassName=CPU_Schem Member=Component C? 10n
+Add Class Member: Failed to add class member : Component NoBat1 VBUS
+Added Member To Class: ClassName=CPU_Schem Member=Component R? 10k
+Added Member To Class: ClassName=CPU_Schem Member=Component SW-Boot 434331045822
+Added Member To Class: ClassName=CPU_Schem Member=Component SW-EN 434331045822

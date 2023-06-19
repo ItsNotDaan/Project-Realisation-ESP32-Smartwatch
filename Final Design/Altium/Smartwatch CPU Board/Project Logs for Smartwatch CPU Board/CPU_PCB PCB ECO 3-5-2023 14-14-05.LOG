@@ -1,0 +1,3 @@
+Added Pin To Net: NetName=NetBatMonPin_1 Pin=BatMonPin-1
+Added Pin To Net: NetName=NetBatMonPin_1 Pin=U1-4
+Added Net: Name=NetBatMonPin_1

@@ -1,0 +1,12 @@
+Removed Pin From Net: NetName=GPIO2 Pin=Buz1-1
+Removed Pin From Net: NetName=GND Pin=Buz1-2
+Removed Member From Class: ClassName=CPU_Schem Member=Buz1
+Change Component Designator: OldDesignator=1 NewDesignator=3.3V
+Change Component Designator: OldDesignator=I1 NewDesignator=I2C
+Change Component Designator: OldDesignator=OLED1 NewDesignator=OLED
+Change Component Designator: OldDesignator=VBAT1 NewDesignator=VBAT
+Change Component Designator: OldDesignator=VBUS1 NewDesignator=VBUS
+Add Component: Footprint Not Found MHDR1X2
+Add Pin To Net: Unknown Pin: Pin NoBat1-1
+Add Pin To Net: Unknown Pin: Pin NoBat1-2
+Add Class Member: Failed to add class member : Component NoBat1 VBUS

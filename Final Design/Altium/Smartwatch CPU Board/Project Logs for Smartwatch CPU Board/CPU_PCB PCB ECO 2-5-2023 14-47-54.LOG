@@ -1,0 +1,17 @@
+Removed Pin From Net: NetName=3.3V Pin=PWR1-1
+Removed Pin From Net: NetName=DTR Pin=Sldr_MOS1-2
+Removed Pin From Net: NetName=RTS Pin=Sldr_MOS2-2
+Removed Member From Class: ClassName=CPU_Programmer_Schem Member=PWR1
+Removed Member From Class: ClassName=CPU_Programmer_Schem Member=Sldr_MOS1
+Removed Member From Class: ClassName=CPU_Programmer_Schem Member=Sldr_MOS2
+Add Component: Footprint Not Found MHDR1X2
+Add Pin To Net: Unknown Pin: Pin NoBat1-1
+Add Pin To Net: Unknown Pin: Pin NoBat1-2
+Added Pin To Net: NetName=DTR Pin=Q1-2
+Added Pin To Net: NetName=RTS Pin=Q2-2
+Added Pin To Net: NetName=RTS Pin=R14-1
+Added Pin To Net: NetName=DTR Pin=R16-1
+Added Pin To Net: NetName=3.3V Pin=U4-5
+Added Pin To Net: NetName=3.3V Pin=U4-6
+Added Pin To Net: NetName=3.3V Pin=U4-7
+Add Class Member: Failed to add class member : Component NoBat1 VBUS
